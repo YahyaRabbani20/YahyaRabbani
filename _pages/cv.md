@@ -11,6 +11,10 @@ redirect_from:
 
 Education
 ======
+* **2022 - Present: Post-doctoral researcher**, EPFL (École polytechnique fédérale de Lausanne), Lausanne, Switzerland
+  * Applied machine learning to engineer nano-bio optical sensors.
+  * Utilized Python libraries for neural network models (CNN, GNN, GCN) in sensor response prediction.
+  * Supervised students from Bachelor's to Ph.D. levels.
 * **2021-2022**: Ph.D. Exchange Program, EPFL (École polytechnique fédérale de Lausanne), Lausanne, Switzerland.
   * Developed machine learning models to predict optical NanoBiosensor responses (DNA-SWCNT) for mycotoxin detection in food grains.
 * **2017-2022**: Ph.D. in Chemical Engineering, University of Tehran, Tehran, Iran.
@@ -23,11 +27,6 @@ Education
 
 Work Experience
 ======
-
-* **2022 - Present: Post-doctoral researcher**, EPFL (École polytechnique fédérale de Lausanne), Lausanne, Switzerland
-  * Applied machine learning to engineer nano-bio optical sensors.
-  * Utilized Python libraries for neural network models (CNN, GNN, GCN) in sensor response prediction.
-  * Supervised students from Bachelor's to Ph.D. levels.
   
 * **2016 - 2021: Process Engineer**, Petropars Operation and Management Company, Tehran, Iran
   * Key contributor to computerized maintenance management system (CMMS) project.
