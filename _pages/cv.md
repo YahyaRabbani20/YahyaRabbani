@@ -11,78 +11,59 @@ redirect_from:
 
 Education
 ======
-* **2018-2021**: Ph.D in Natural Language Processing, LISN-CNRS and University Paris-Saclay, Paris, France. 
-<br> Title:  Models of diachronic semantic change using word embeddings
-* **2014-2017**: M.S. in Statistics, National School for Statistics and Information Analysis (ENSAI), Rennes, France. 
-* **2012-2014**: Post-secondary preparatory classes in Mathematics and Physics, Lycée Janson de Sailly, Paris, France. 
+* **2021-2022**: Ph.D. Exchange Program, EPFL (École polytechnique fédérale de Lausanne), Lausanne, Switzerland.
+  * Developed machine learning models to predict optical NanoBiosensor responses (DNA-SWCNT) for mycotoxin detection in food grains.
+* **2017-2022**: Ph.D. in Chemical Engineering, University of Tehran, Tehran, Iran.
+  * Awarded full PhD scholarship by University of Tehran and National Elites Foundation.
+  * Focused on machine learning for chemical processes, including sensor prediction and bioinformatics applications.
+* **2013-2015**: M.Sc. in Chemical Engineering, Iran University of Science and Technology (IUST), Tehran, Iran.
+  * Ranked 2nd in Chemical Engineering, GPA: 4.0/4.0.
+* **2009-2013**: B.Sc. in Chemical Engineering, University of Tehran, Tehran, Iran.
+  * Ranked 3rd in Chemical Engineering, GPA: 3.81/4.0.
 
-
-Work experience
+Work Experience
 ======
 
-* **January 2023 - Ongoing: Post-doctoral researcher**, Ecole Polytechnique Fédérale de Lausanne (EPFL), Lausanne, Switzerland
-  * Retrieval-based Vision-Language models.
-  * Commonsense Reasoning.
+* **2022 - Present: Post-doctoral researcher**, EPFL (École polytechnique fédérale de Lausanne), Lausanne, Switzerland
+  * Applied machine learning to engineer nano-bio optical sensors.
+  * Utilized Python libraries for neural network models (CNN, GNN, GCN) in sensor response prediction.
+  * Supervised students from Bachelor's to Ph.D. levels.
+  
+* **2016 - 2021: Process Engineer**, Petropars Operation and Management Company, Tehran, Iran
+  * Key contributor to computerized maintenance management system (CMMS) project.
+  * Applied computational fluid dynamics (CFD) for process optimization.
 
-* **June 2022 - September 2022: Invited researcher**, Jozef Stefan Institute, Ljubjana, Slovenia
-  * Causal discovery, multi-task classification.
+* **2014 - 2016: Process Engineer**, Artiman’s Process Development Engineering Company, Tehran, Iran
+  * Conducted simulation projects using CFD tools to optimize industrial processes.
 
-* **March 2021 - May 2022: Post-doctoral researcher**, Almanach Team, INRIA Paris
-  * Low-resource cross-lingual transfer for hate seech detection;
-  * Multi-modal memes classification;
-  * Temporal graph neural networks for community detection and social network modeling.
-
-* **January 2018 - February 2021: CIFRE PhD** in partnership with Societe Generale, Paris, France.
-  * NLP for the financial domain.
-
-* **September 2019 - February 2020: Research Intern**, National Institute of Informatics (NII), Tokyo, Japan.
-  * Under the supervision of Pr. Asanobu Kitamoto;
-  * Semantics for Crisis Informatics.
-
-* **April - September 2017: Data Scientist Intern**, Risks Department, Société Générale, Paris, France
-  * Missing values imputation for mixed-type variables.
-
-* **October-December 2016: Consultant**, ENSAI junior Consultant, Rennes, France
-  * Time series prediction for web trends.
-
-* **June-August 2016: Data Scientist Intern**, Banque de France, Paris, France
-  * Time series and graph theory for diffusion of financial crisis.
-
-Professional service
+Professional Service
 ======
-* Reviewer for:
-  * Conferences: COLING/EMNLP/*ACL, and workshops (CMCL, Semeval, LChange, MIDAS).
-  * Book: Computational Approaches to Semantic Change, Language Variation series, LangSci.
+* Supervised Bachelor's, Master's, and Ph.D. students in their research projects.
+* Editor of the student journal at the University of Tehran.
+* Member of the National Elites Foundation, Presidency of the Islamic Republic of Iran (2016-2021).
 
-* Co-organiser of the 2nd and 3rd International Workshop on Computational Approaches to Historical Language Change (LChange), at ACL 2021 and 2022 and EMNLP 2023.
-
-* Member of the Professional Conduct Committee of the Association for Computational Linguistics since 04/2021.
+Patents and Publications
+======
+* Patent: Sustainable Magnetorheological Fluid Synthesis with Proper Rheological Properties for industrial applications.
+* Book: Process Optimization in Chemical Engineering, Iran University of Science and Technology.
+* Research Publications: Authored multiple papers on machine learning, biosensor design, and chemical engineering. (h-index: 10, Citations: 314). Full details available on [Google Scholar](https://scholar.google.co.in/citations?user=gk2vj4YAAAAJ&hl=en).
 
 Teaching
 ======
-* 2023:
-  * École Polytechnique Fédérale de Lausanne (EPFL), Level: M2, 2-hours lecture on Vision-Language models.
+* **2023**:
+  * EPFL: Supervised students in machine learning projects, including lectures on bioinformatics and sensor response models.
+  
+* **2017 - 2022**:
+  * Supervised students in computational fluid dynamics, process optimization, and machine learning applications in chemical engineering.
 
-* 2021 - 2022:
-  * National School for Statistics and Information Analysis, Level: M2, 24 hours of lab sessions for the Text Mining and web scrapping class.
-  * Dauphine-PSL University and École Polytechnique: Organisation of the Data science challenge on stock price prediction using textual data, Level: M2. 24h of lectures + lab sessions.
-
-* 2020 - 2021:
-  * Machine Learning and AI for Economics and Finance Summer school, Université Paris Dauphine. Level: M2 & PhD, course: Advanced NLP for Finance. 3 hours of lecture.
-
-
-Software skills
+Software Skills
 ======
-* **Data analysis**: R, Matlab, SAS, SPAD, PowerBI
-* **Programming**: Python, Java, C++, SQL, VBA, UML
+* **Data Analysis**: Python (TensorFlow, Scikit-learn, Numpy, Pandas, Matplotlib), MATLAB
+* **Engineering Software**: Aspen HYSYS, ANSYS Fluent, Gambit, LIGGGHTS, OpenFOAM, CFDEM
+* **Programming**: Python, MATLAB
 
 Languages
 ======
-* French: Native
+* Persian: Native
 * English: Fluent
-* German:  Level B1, CEFR
-* Chinese: Intermediate oral
-* Japanese: Basic knowledge 
-
-
-
+* French: Intermediate (A2/B1)
