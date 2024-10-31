@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Syrielle Montariol"
+title                    : "Yahya Rabbani"
 title_separator          : "-"
-name                     : &name "Syrielle Montariol"
-description              : &description "Post-doctoral researcher in Natural Language Processing"
+name                     : &name "Yahya Rabbani"
+description              : &description "Post-doctoral researcher"
 url                      :  https://smontariol.github.io #"http://127.0.0.1:4000/" #https://gaslen.github.io  # https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "smontariol/smontariol.github.io"
