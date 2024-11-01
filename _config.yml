@@ -17,7 +17,7 @@ repository               : "YahyaRabbani20/YahyaRabbani.github.io"
 
 teaser: "profil.jpg"   # Replace with the name of your new teaser image
 author:
-  avatar: "profil.jpg" # Replace with the name of your new profile picture
+  avatar: "/images/profil.jpg"  # Make sure to start with "/"
 
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
