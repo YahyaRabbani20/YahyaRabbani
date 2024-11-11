@@ -69,6 +69,7 @@ For a complete list of publications, please refer to my [Google Scholar](https:/
 - Superhydrophobicity of carbonyl iron/SiO₂ particles for oil/water separation, *Scientific Reports*, Nature
 
 ---
+# Projects
 
 ## Process Optimization and Simulation in Chemical Engineering
 
