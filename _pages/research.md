@@ -84,3 +84,32 @@ Key areas include:
 3. **CFD-DEM Coupling**: Combining CFD (using **OpenFOAM**) with DEM (using **LIGGGHTS**), I explored the behavior of magnetorheological fluids, focusing on fluid-particle interactions under magnetic fields. This research, including work from my master’s thesis, contributed to understanding shear and dynamic yield stress properties in such fluids.
 
 This summary reflects my commitment to advancing chemical engineering through computational methods and simulation tools. Please feel free to reach out if you are interested in collaboration on related projects.
+
+---
+## Rheological Fluid Behavior Using Neural Network Modeling (2014-2016)
+
+During my master's research from 2014 to 2016, I applied **Artificial Neural Networks (ANN)** and **Support Vector Regression (SVR)** to model and predict the rheological properties of magnetorheological fluids (MRF) under various conditions, including shear stress, shear rate, temperature, and magnetic field strengths. The models aimed to address challenges in predicting fluid behavior at low shear rates where traditional methods underperformed, providing insights into fluid dynamics and rheology for MRFs.
+The primary objective was to use machine learning techniques to capture the complex behavior of MRFs, specifically focusing on properties like shear stress and dynamic yield stress under low shear conditions. Due to limitations in rheometry instruments for accurately measuring low shear rates, the ANN model successfully estimated these properties, offering reliable predictions where conventional tools fell short.
+
+### Technologies and Tools Used
+- **MATLAB**: Employed for developing and training **ANN** and **SVR** models, enabling accurate predictions based on experimental data and simulations, especially under challenging low shear rate conditions.
+
+### Key Project Highlights
+
+1. **ANN and SVR Models for Rheology Prediction**:
+   - **Artificial Neural Networks (ANN)**: Used to model the fluid's nonlinear behavior under various temperatures and magnetic field strengths.
+   - **Support Vector Regression (SVR)**: Enhanced prediction accuracy for dynamic yield stress at low shear rates.
+   - **Parameter Sensitivity Analysis**: Conducted to assess how different factors, including magnetic field strength, particle concentration, and temperature, impact MRF properties.
+
+2. **Teaching Assistant Experience in Optimization Algorithms**:
+   As a **Teaching Assistant** for "Optimization of Chemical Engineering Processes" at **Iran University of Science and Technology (IUST)**, I guided students through various optimization techniques, covering **heuristic** and **meta-heuristic** algorithms with practical applications in chemical engineering.
+
+   - **Heuristic Algorithms**: Practical, problem-specific techniques like **Gradient Descent** were taught to tackle optimization challenges in engineering.
+   - **Meta-Heuristic Algorithms**: Covered strategies such as **Genetic Algorithms (GA)** and **Bee Colony Optimization** to help students explore complex search spaces for near-optimal solutions. These were applied to real-world scenarios, including reactor optimization, energy minimization, and process yield improvement.
+
+### Paper Reference
+This project is detailed in my publication:
+
+**"Application of Artificial Neural Networks and Support Vector Regression Modeling in Prediction of Magnetorheological Fluid Rheometry"**, published in *Colloids and Surfaces A: Physicochemical and Engineering Aspects*. The paper delves into the use of **ANN** and **SVR** to predict MRF behavior across varying conditions, emphasizing the model’s effectiveness at low shear rates.
+
+- Access the paper [here](https://www.sciencedirect.com/science/article/pii/S0927775717301176?via%3Dihub).
