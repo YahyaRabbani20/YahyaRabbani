@@ -68,4 +68,18 @@ For a complete list of publications, please refer to my [Google Scholar](https:/
 - Application of Neural Networks and Support Vector Regression for Magnetorheological Fluid Rheometry, *Colloids and Surfaces A*
 - Superhydrophobicity of carbonyl iron/SiO₂ particles for oil/water separation, *Scientific Reports*, Nature
 
-For a full list of publications, visit my [Google Scholar](https://scholar.google.co.in/citations?user=gk2vj4YAAAAJ&hl=en) page.
+---
+
+## Process Optimization and Simulation in Chemical Engineering
+
+This section provides a summary of my experience in simulation and optimization within chemical engineering. Throughout my academic and professional career, I have focused on enhancing chemical processes and computational models, using tools such as **MATLAB**, **Aspen HYSYS**, **ANSYS Fluent**, **OpenFOAM**, and **LIGGGHTS**.
+
+Key areas include:
+
+1. **Computational Fluid Dynamics (CFD)**: Applying CFD techniques for fluid flow and heat transfer simulations, I have worked on projects such as two-phase fluid systems and solar chimney energy generation, optimizing parameters like flow rates and thermal conductivity.
+
+2. **Process Optimization**: With **Aspen HYSYS**, I have conducted process simulations to optimize distillation columns, reactors, and heat exchangers, enhancing yields and reducing energy consumption across various plant systems.
+
+3. **CFD-DEM Coupling**: Combining CFD (using **OpenFOAM**) with DEM (using **LIGGGHTS**), I explored the behavior of magnetorheological fluids, focusing on fluid-particle interactions under magnetic fields. This research, including work from my master’s thesis, contributed to understanding shear and dynamic yield stress properties in such fluids.
+
+This summary reflects my commitment to advancing chemical engineering through computational methods and simulation tools. Please feel free to reach out if you are interested in collaboration on related projects.
