@@ -10,14 +10,12 @@ locale                   : "en-US"
 title                    : "Yahya Rabbani"
 title_separator          : "-"
 name                     : &name "Yahya Rabbani"
-description              : &description "Post-doctoral researcher"
-url                      :  https://yahyarabbani20.github.io/YahyaRabbani/ #"http://127.0.0.1:4000/" #https://gaslen.github.io  # https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "YahyaRabbani20/YahyaRabbani.github.io"
+description              : &description "Chemical engineering · Nanobiotechnology · Machine learning"
+url                      : "https://yahyarabbani20.github.io"
+baseurl                  : "/YahyaRabbani"
+repository               : "YahyaRabbani20/YahyaRabbani"
 
-teaser: "profil.jpg"   # Replace with the name of your new teaser image
-author:
-  avatar: "/images/profil.jpg"  # Make sure to start with "/"
+teaser: "profil.jpg"
 
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -86,8 +84,8 @@ analytics:
 author:
   name             :  "Yahya Rabbani"
   avatar           : "profil.jpg"
-  bio              : "Post-doctoral researcher"
-  location         : "Lausanne, Switzerland"
+  bio              : "Chemical engineering · Nanobiotechnology · Machine learning"
+  location         : "Minneapolis, Minnesota, USA"
   employer         : 
   pubmed           : 
   googlescholar    : "citations?user=gk2vj4YAAAAJ&hl=en"

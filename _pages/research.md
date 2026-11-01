@@ -1,115 +1,40 @@
 ---
-layout: "single"
-title: "Research and Publications"
-permalink: "/research/"
-author_profile: true
+layout: portfolio
+title: "Research & publications"
+permalink: /research/
+excerpt: "Experimental nanobiotechnology and machine learning for DNA–nanotube optical sensing."
 ---
+I combine nanomaterial synthesis, optical characterization, and machine learning to engineer DNA-wrapped single-walled carbon nanotube (ssDNA–SWCNT) sensors. Their near-infrared fluorescence provides a measurable response to changes at the nanotube interface.
 
-<script type="text/javascript">
-   function toggleVisibility(block_id) {
-       var e = document.getElementById(block_id);
-       if(e.style.display == 'block')
-          e.style.display = 'none';
-       else
-          e.style.display = 'block';
-   }
-    function copyToClip(element) {
-        var str = document.getElementById(element).innerHTML;
-        function listener(e) {
-            e.clipboardData.setData("text/html", str);
-            e.clipboardData.setData("text/plain", str);
-            e.preventDefault();
-        }
-        document.addEventListener("copy", listener);
-        document.execCommand("copy");
-        document.removeEventListener("copy", listener);
-};
-</script>
+## Non-enzymatic optical glucose sensing {#glucose}
+AI-guided high-throughput screening and deep learning identified DNA–nanotube sensors with glucose-responsive fluorescence. The study compares sequence-selection strategies and characterizes concentration-dependent changes in fluorescence intensity and emission wavelength.
 
-# Publications
+**Approach:** Diverse sequence selection → experimental screening → predictive modeling → validation.
 
-For a complete list of publications, please refer to my [Google Scholar](https://scholar.google.co.in/citations?user=gk2vj4YAAAAJ&hl=en) page.
+[Read the glucose preprint on bioRxiv](https://doi.org/10.1101/2025.05.06.652529)
 
-## Patents and Books
-- **Optimizing optical nano-biosensors** for detecting molecules such as glucose and cancer biomarkers, developed with single-walled carbon nanotubes wrapped in single-stranded DNA sequences.
-  *Patent under process at EPFL (P193835EP00)*
+## Clustering-assisted directed evolution for OPG sensing {#opg}
+We selected 48 experimental candidates from a computational library of one million DNA sequences using complementary sequence representations. Iterative mutation, clustering, and screening identified variants with larger OPG-induced peak shifts and improved discrimination against BSA under the tested conditions.
 
-- **Sustainable Magnetorheological Fluid Synthesis** with Proper Rheological Properties for Industrial Applications.
-  *Iranian Patent 98516*
+Screening data also supported neural-network training to identify additional high-response candidates. This combines exploration of sequence diversity with experimental selection.
 
-- **Process Optimization in Chemical Engineering**, Iran University of Science and Technology  
-  *Published Book*
+**Key distinction:** An increased response to OPG and discrimination against BSA are experimental findings; clinical diagnostic performance remains a separate validation task.
 
-- **Engineering the Properties of Nanobiooptical Sensors**  
-  *Chapter in progress*
+*Manuscript in submission.*
 
-## Selected Journal Publications
-### Under review 
-- **Designing ssDNA-SWCNT Nano biosensors for Small Molecule Glucose Detection Using Clustering and Deep Learning**  
-  *Yahya Rabbani, et al.*  
-- **A new clustering approach for engineering ssDNA-SWCNT sensor for OPG cancer biomarker detection**  
-  *Yahya Rabbani, et al.*  
-- **Machine Learning Engineering of ssDNA-SWCNT Sensor for Nitric Oxide Detection**  
-  *Yahya Rabbani, et al.*  
-### 2023
-- **Prediction of mycotoxin response of DNA-wrapped nanotube sensor with machine learning**  
-  *Yahya Rabbani, et al.*  
-  Published in *bioRxiv*  
+## Nitric oxide sensing {#nitric-oxide}
+Sequence representations, pattern recognition, and machine learning guide the selection of DNA–nanotube sensors with high fluorescence brightness and strong nitric-oxide responses. Optical screening connects sequence-dependent behavior to measured fluorescence quenching.
 
-### 2017
-- **Application of artificial neural networks and support vector regression modeling in prediction of magnetorheological fluid rheometery**  
-  *Yahya Rabbani, et al.*  
-  Published in *Colloids and Surfaces A: Physicochemical and Engineering Aspects*  
+This work supports sensor development toward inflammation monitoring; future studies will assess performance in complex biological samples.
 
+[View related publications on Google Scholar](https://scholar.google.com/citations?user=gk2vj4YAAAAJ&hl=en)
 
-## Additional Publications
-- Investigation of the effect of parameters on hydrophobic carbonyl nanostructures with glucose and silane coating, *Ceramics International*
-- Experimental Study on Magnetorheological Fluid Stability and MR Effect, *Soft Matter Journal*
-- Application of Neural Networks and Support Vector Regression for Magnetorheological Fluid Rheometry, *Colloids and Surfaces A*
-- Superhydrophobicity of carbonyl iron/SiO₂ particles for oil/water separation, *Scientific Reports*, Nature
+## Predictive sequence selection for fumonisin B1 {#mycotoxin}
+Machine learning classifies DNA–nanotube sensor responses to the mycotoxin fumonisin B1 and guides the selection of mutated and dissimilar DNA sequences for experimental testing. The work connects model predictions with measured optical responses toward food-safety sensing.
 
----
-# Projects
+[Read the mycotoxin preprint on bioRxiv](https://doi.org/10.1101/2023.09.07.556334)
 
-## Process Optimization and Simulation in Chemical Engineering
+## A broader chemical engineering foundation
+My earlier work spans magnetorheological materials, experimental rheology, neural-network and support-vector-regression models, computational fluid dynamics, and process optimization. These foundations inform my current approach to linking material behavior, predictive models, and experiments.
 
-This section provides a summary of my experience in simulation and optimization within chemical engineering. Throughout my academic and professional career, I have focused on enhancing chemical processes and computational models, using tools such as **MATLAB**, **Aspen HYSYS**, **ANSYS Fluent**, **OpenFOAM**, and **LIGGGHTS**.
-
-Key areas include:
-
-1. **Computational Fluid Dynamics (CFD)**: Applying CFD techniques for fluid flow and heat transfer simulations, I have worked on projects such as two-phase fluid systems and solar chimney energy generation, optimizing parameters like flow rates and thermal conductivity.
-
-2. **Process Optimization**: With **Aspen HYSYS**, I have conducted process simulations to optimize distillation columns, reactors, and heat exchangers, enhancing yields and reducing energy consumption across various plant systems.
-
-3. **CFD-DEM Coupling**: Combining CFD (using **OpenFOAM**) with DEM (using **LIGGGHTS**), I explored the behavior of magnetorheological fluids, focusing on fluid-particle interactions under magnetic fields. This research, including work from my master’s thesis, contributed to understanding shear and dynamic yield stress properties in such fluids.
-
-This summary reflects my commitment to advancing chemical engineering through computational methods and simulation tools. Please feel free to reach out if you are interested in collaboration on related projects.
-
----
-## Rheological Fluid Behavior Using Neural Network Modeling (2014-2016)
-
-During my master's research from 2014 to 2016, I applied **Artificial Neural Networks (ANN)** and **Support Vector Regression (SVR)** to model and predict the rheological properties of magnetorheological fluids (MRF) under various conditions, including shear stress, shear rate, temperature, and magnetic field strengths. The models aimed to address challenges in predicting fluid behavior at low shear rates where traditional methods underperformed, providing insights into fluid dynamics and rheology for MRFs.
-The primary objective was to use machine learning techniques to capture the complex behavior of MRFs, specifically focusing on properties like shear stress and dynamic yield stress under low shear conditions. Due to limitations in rheometry instruments for accurately measuring low shear rates, the ANN model successfully estimated these properties, offering reliable predictions where conventional tools fell short.
-
-### Technologies and Tools Used
-- **MATLAB**: Employed for developing and training **ANN** and **SVR** models, enabling accurate predictions based on experimental data and simulations, especially under challenging low shear rate conditions.
-
-### Key Project Highlights
-
-1. **ANN and SVR Models for Rheology Prediction**:
-   - **Artificial Neural Networks (ANN)**: Used to model the fluid's nonlinear behavior under various temperatures and magnetic field strengths.
-   - **Support Vector Regression (SVR)**: Enhanced prediction accuracy for dynamic yield stress at low shear rates.
-   - **Parameter Sensitivity Analysis**: Conducted to assess how different factors, including magnetic field strength, particle concentration, and temperature, impact MRF properties.
-
-2. **Teaching Assistant Experience in Optimization Algorithms**:
-   As a **Teaching Assistant** for "Optimization of Chemical Engineering Processes" at **Iran University of Science and Technology (IUST)**, I guided students through various optimization techniques, covering **heuristic** and **meta-heuristic** algorithms with practical applications in chemical engineering.
-
-   - **Heuristic Algorithms**: Practical, problem-specific techniques like **Gradient Descent** were taught to tackle optimization challenges in engineering.
-   - **Meta-Heuristic Algorithms**: Covered strategies such as **Genetic Algorithms (GA)** and **Bee Colony Optimization** to help students explore complex search spaces for near-optimal solutions. These were applied to real-world scenarios, including reactor optimization, energy minimization, and process yield improvement.
-
-### Paper Reference
-This project is detailed in my publication:
-
-**"Application of Artificial Neural Networks and Support Vector Regression Modeling in Prediction of Magnetorheological Fluid Rheometry"**, published in *Colloids and Surfaces A: Physicochemical and Engineering Aspects*. The paper delves into the use of **ANN** and **SVR** to predict MRF behavior across varying conditions, emphasizing the model’s effectiveness at low shear rates.
-
-- Access the paper [here](https://www.sciencedirect.com/science/article/pii/S0927775717301176?via%3Dihub).
+[Browse my full publication record on Google Scholar ↗](https://scholar.google.com/citations?user=gk2vj4YAAAAJ&hl=en)

@@ -1,28 +1,29 @@
 ---
+layout: portfolio
 permalink: /
-title: "About me"
-excerpt: "About me"
-author_profile: true
-redirect_from: 
+title: "AI-guided materials and optical sensing"
+excerpt: "Yahya Rabbani combines chemical engineering, experimental nanobiotechnology, and machine learning to design materials and optical nanosensors."
+home: true
+redirect_from:
   - /about/
   - /about.html
 ---
-
-I am a postdoctoral researcher at EPFL (École polytechnique fédérale de Lausanne) specializing in nanobiotechnology and machine learning applications for digital health. My work focuses on the development of single-molecule fluorescence sensors (such as DNA-SWCNT) for highly sensitive detection in health applications, targeting biomarkers like glucose, cancer biomarker, and nitric oxide for inflammation monitoring.
-
-My expertise spans:
-- **Machine Learning and Data Analysis**: Applying machine learning for sensor response prediction, with experience in Python libraries such as TensorFlow, Scikit-learn, and Pandas.
-- **Chemical and Process Engineering**: Background in process engineering and modeling, including extensive work in experimental sensor synthesis and analysis using advanced techniques like fluorescence spectroscopy and hyperspectral imaging.
-- **Bioinformatics**: Specialized in representing sequence information of single-stranded DNA in bioinformatics, utilizing machine learning to optimize DNA-SWCNT optical sensors for the sensitive and selective detection of key health biomarkers, including glucose, cancer markers, and nitric oxide for inflammation monitoring.
-- **Research and Publication**: Published multiple high-impact journal articles on topics such as nanobiosensors, machine learning in bioinformatics, and fluid dynamics. I am actively contributing to new research in chemical and nano engineering.
-
-
-For more information, please connect with me on [LinkedIn](https://www.linkedin.com/in/yahyarabbani/) or view my publications on [Google Scholar](https://scholar.google.co.in/citations?user=gk2vj4YAAAAJ&hl=en).
-
----
-# News:
-
-* **December 2022**: Began postdoctoral research at EPFL in chemical engineering, focusing on DNA-SWCNT optical sensors for biomarker detection.
-* **June 2022**: Published a study draft on deep learning applications in mycotoxin detection using ssDNA-SWCNT nano-biosensors.
-* **December 2021**: Completed PhD in Chemical Engineering at the University of Tehran with high honors, specializing in machine learning applications for sensor development.
-* **2021-2022**: Conducted a PhD exchange at EPFL, developing machine learning models for biosensor response prediction at the Laboratory of Nanobiotechnology (LNB).
+<section class="hero">
+<div><p class="eyebrow">Materials · Optical sensing · Machine learning</p><h1>Designing materials.<br><em>Learning from experiments.</em></h1><p class="lead">I’m Yahya Rabbani, a chemical engineer working at the intersection of experimental nanobiotechnology, physics-based modeling, and AI.</p><p>I develop DNA–nanotube optical sensors and data-driven workflows that connect material design with experimental discovery.</p><div class="buttons"><a class="button primary" href="{{ '/research/' | relative_url }}">Explore my research ↗</a><a class="button" href="#connect">Let’s connect</a></div></div>
+<figure class="hero-art"><img src="{{ '/images/research/dna-nanotube.webp' | relative_url }}" alt="Conceptual illustration of a carbon nanotube functionalized with DNA" width="1000" height="667"><figcaption>DNA–nanotube interfaces · Conceptual illustration</figcaption></figure>
+</section>
+<section class="band"><p class="eyebrow">Research foundation</p><div class="foundation"><article><h3>Chemical engineering</h3><p>Mechanistic modeling, simulation, and experimental design.</p></article><article><h3>Experimental nanobiotechnology</h3><p>Nanomaterial synthesis and DNA–nanotube sensor engineering.</p></article><article><h3>Machine learning</h3><p>Deep learning, predictive modeling, and experimental validation.</p></article></div></section>
+<section class="band" id="research"><div class="section-top"><div><p class="eyebrow">Selected research</p><h2>From sequences to sensing.</h2></div><a href="{{ '/research/' | relative_url }}">Project details & publications ↗</a></div>
+<div class="project-grid">
+<article class="project"><span class="number">01 / GLUCOSE</span><h3>Non-enzymatic optical glucose sensing</h3><p>AI-guided screening and deep learning identified DNA–nanotube sensors with glucose-responsive fluorescence.</p><a href="{{ '/research/#glucose' | relative_url }}">Explore the project →</a></article>
+<article class="project"><span class="number">02 / OPG PROTEIN</span><h3>Clustering-assisted directed evolution</h3><p>Sequence clustering, mutation, and experimental selection identified variants with enhanced OPG responses and discrimination against BSA under tested conditions.</p><a href="{{ '/research/#opg' | relative_url }}">Explore the project →</a></article>
+<article class="project"><span class="number">03 / NITRIC OXIDE</span><h3>Learning sequence–response relationships</h3><p>Sequence representations and machine learning guide the selection of bright, nitric-oxide-responsive DNA–nanotube sensors.</p><a href="{{ '/research/#nitric-oxide' | relative_url }}">Explore the project →</a></article>
+<article class="project"><span class="number">04 / FUMONISIN B1</span><h3>Predictive selection for mycotoxin sensing</h3><p>Machine learning predicts sensor response and guides experimental screening of DNA sequences for optical mycotoxin detection.</p><a href="{{ '/research/#mycotoxin' | relative_url }}">Explore the project →</a></article>
+</div></section>
+<section class="band"><p class="eyebrow">An integrated approach</p><h2>Design. Prepare. Measure. Learn.</h2><p class="lead">Connecting computation with experiments to navigate a vast material design space.</p><div class="workflow"><div><strong>01 Design</strong><span>Represent sequences and select diverse candidates.</span></div><div><strong>02 Prepare</strong><span>Synthesize and functionalize DNA–nanotube sensors.</span></div><div><strong>03 Measure</strong><span>Characterize near-infrared optical responses.</span></div><div><strong>04 Learn</strong><span>Train predictive models and prioritize candidates.</span></div></div><p class="note">My future work extends these capabilities toward autonomous, closed-loop experimentation.</p></section>
+<section class="band"><div class="section-top"><div><p class="eyebrow">Future research vision</p><h2>Toward autonomous materials discovery.</h2></div></div>
+<div class="vision-row"><span class="number">01</span><div><h3>Physics-informed materials design</h3><p>Integrate physics-based modeling and AI to understand material behavior, predict functional properties, and guide experimental design.</p></div></div>
+<div class="vision-row"><span class="number">02</span><div><h3>Autonomous experimentation</h3><p>Connect robotic preparation, automated characterization, and AI-guided experiment selection to accelerate materials and sensor discovery.</p></div></div>
+<div class="vision-row"><span class="number">03</span><div><h3>Adaptive materials and sensing</h3><p>Extend programmable material interfaces to new targets and develop sensor arrays for molecular fingerprinting in complex samples.</p></div></div><p style="margin-top:24px"><a href="{{ '/vision/' | relative_url }}">Read my research vision →</a></p></section>
+<section class="band"><div class="about"><img class="portrait" src="{{ '/images/profil.jpg' | relative_url }}" alt="Yahya Rabbani" loading="lazy"><div><p class="eyebrow">About me</p><h2>Engineering across disciplines.</h2><p>I am an independent researcher based in Minneapolis, Minnesota, with a PhD in Chemical Engineering from the University of Tehran and postdoctoral research experience in EPFL’s Laboratory of Nanobiotechnology, led by Prof. Ardemis Boghossian.</p><p>My work brings together material synthesis, optical characterization, mechanistic modeling, and machine learning.</p><a href="{{ '/cv/' | relative_url }}">View my CV →</a></div></div></section>
+<section class="contact" id="connect"><p class="eyebrow" style="color:#a9dfd5">Explore my research & connect</p><h2>Let’s connect ideas and experiments.</h2><p>I welcome conversations about research collaborations in materials, optical sensing, and AI-guided experimentation.</p><div class="buttons"><a class="button" href="https://www.linkedin.com/in/YahyaRabbani">LinkedIn ↗</a><a class="button" href="mailto:{{ site.author.email }}">Email me ↗</a><a class="button" href="https://scholar.google.com/citations?user=gk2vj4YAAAAJ&amp;hl=en">Google Scholar ↗</a><a class="button" href="https://github.com/YahyaRabbani20">GitHub ↗</a></div></section>
