@@ -86,3 +86,17 @@ a.contact-card:hover{border-color:var(--teal);color:var(--ink)}
 .contact-row .t small{display:block;font-size:14px;color:var(--muted)}
 .contact-row:hover .t strong{color:var(--teal)}
 @media(max-width:900px){.contact-grid.three{grid-template-columns:1fr}}
+
+/* ===== Research studies: text + (a)/(b) figure row ===== */
+.study{padding:52px 0;border-top:1px solid var(--line)}
+.document .study h2{margin-top:0}
+.study .tag{display:inline-block;font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--teal);margin-bottom:12px}
+.study p{color:var(--muted);max-width:none}
+.study p strong{color:var(--ink)}
+.study .approach{font-size:16px;border-left:3px solid var(--teal);padding-left:14px;color:var(--ink)}
+.fig-row{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin:28px 0 0;align-items:start}
+.fig-row figure{margin:0}
+.fig-row img{width:100%;height:auto;display:block;background:#fff;border-radius:6px}
+.fig-row figcaption{font-size:14px;color:var(--muted);margin-top:10px;line-height:1.45}
+.fig-row figcaption b{color:var(--ink)}
+@media(max-width:760px){.fig-row{grid-template-columns:1fr}}
