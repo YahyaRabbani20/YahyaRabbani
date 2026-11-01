@@ -1,7 +1,7 @@
 main:
-  - title: "Research"
-    url: /research/
-  - title: "Future vision"
-    url: /vision/
-  - title: "CV"
-    url: /cv/
+  - title: "Home"
+    url: /
+  - title: "Publications"
+    url: /publications/
+  - title: "Contact"
+    url: /contact/
