@@ -1,9 +1,17 @@
 ---
 layout: portfolio
-title: "Research & publications"
+title: "Research"
 permalink: /research/
+hide_title: true
 excerpt: "Experimental nanobiotechnology and machine learning for DNA–nanotube optical sensing."
 ---
+
+<section class="page-banner">
+  <p class="eyebrow">Yahya Rabbani / Research</p>
+  <h1>Research</h1>
+  <p class="keywords">Nanobiotechnology<span>|</span>Machine learning<span>|</span>Optical sensing<span>|</span>High-throughput experimentation</p>
+</section>
+
 I combine nanomaterial synthesis, optical characterization, and machine learning to engineer DNA-wrapped single-walled carbon nanotube (ssDNA–SWCNT) sensors. Their near-infrared fluorescence provides a measurable response to changes at the nanotube interface.
 
 ## Non-enzymatic optical glucose sensing {#glucose}
