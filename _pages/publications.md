@@ -14,13 +14,7 @@ excerpt: "Publications, patents, and books by Yahya Rabbani on AI-guided nanobio
 
 <p class="statement">My publications span two connected bodies of work: <strong>AI-guided design of DNA-wrapped carbon nanotube optical sensors</strong> at EPFL, and earlier research in <strong>chemical and process engineering</strong> on magnetorheological fluids, superhydrophobic materials, and microalgae bioprocesses — where <strong>machine-learning models</strong> were already part of how I connect experiments to prediction.</p>
 
-<div class="stat-row">
-  <div class="stat"><strong>17</strong><span>Journal articles &amp; preprints</span></div>
-  <div class="stat"><strong>3</strong><span>Manuscripts in submission or preparation</span></div>
-  <div class="stat"><strong>2</strong><span>Patents</span></div>
-  <div class="stat"><strong>2</strong><span>Books &amp; book chapters</span></div>
-  <div class="stat"><strong>16</strong><span>Conference contributions</span></div>
-</div>
+
 
 <p class="note">Full and up-to-date record on <a href="https://scholar.google.com/citations?user=gk2vj4YAAAAJ&amp;hl=en">Google Scholar</a>. Code for the AI-guided discovery work is on <a href="https://github.com/YahyaRabbani20/AI-BioSense">GitHub</a>.</p>
 
