@@ -1,8 +1,37 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{ page.title }} | Yahya Rabbani</title><meta name="description" content="{{ page.excerpt | default: site.description | escape }}">
-<link rel="canonical" href="{{ page.url | absolute_url }}"><link rel="stylesheet" href="{{ '/assets/css/portfolio.css' | relative_url }}">
-</head><body><a class="skip" href="#main">Skip to content</a>
-<header class="header"><a class="brand" href="{{ '/' | relative_url }}">Yahya Rabbani<span>PhD · Chemical Engineering</span></a><nav aria-label="Main navigation"><a href="{{ '/research/' | relative_url }}">Research</a><a href="{{ '/vision/' | relative_url }}">Future vision</a><a href="{{ '/cv/' | relative_url }}">CV</a><a href="{{ '/#connect' | relative_url }}">Connect ↗</a></nav></header>
-<main id="main" class="{% unless page.home %}document{% endunless %}">{% unless page.home %}<p class="eyebrow">Yahya Rabbani / {{ page.title }}</p><h1>{{ page.title }}</h1>{% endunless %}{{ content }}</main>
-<footer><span>Yahya Rabbani, PhD</span><span>Engineering materials. Learning from experiments.</span><a href="https://github.com/YahyaRabbani20">GitHub ↗</a></footer></body></html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page.title }} | Yahya Rabbani</title>
+<meta name="description" content="{{ page.excerpt | default: site.description | escape }}">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/portfolio.css' | relative_url }}">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="header">
+  <a class="brand" href="{{ '/' | relative_url }}">Yahya Rabbani<span>PhD · Chemical Engineering</span></a>
+  <nav aria-label="Main navigation">
+    <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}aria-current="page"{% endif %}>Home</a>
+    <a href="{{ '/research/' | relative_url }}" {% if page.url == '/research/' %}aria-current="page"{% endif %}>Research</a>
+    <a href="{{ '/publications/' | relative_url }}" {% if page.url == '/publications/' %}aria-current="page"{% endif %}>Publications</a>
+    <a href="{{ '/vision/' | relative_url }}" {% if page.url == '/vision/' %}aria-current="page"{% endif %}>Research Vision</a>
+    <a href="{{ '/contact/' | relative_url }}" {% if page.url == '/contact/' %}aria-current="page"{% endif %}>Contact</a>
+  </nav>
+</header>
+<main id="main" class="{% unless page.home %}document{% endunless %}{% if page.wide %} wide{% endif %}">
+  {% unless page.home or page.hide_title %}<p class="eyebrow">Yahya Rabbani / {{ page.title }}</p><h1>{{ page.title }}</h1>{% endunless %}
+  {{ content }}
+</main>
+<footer>
+  <span>© {{ 'now' | date: "%Y" }} Yahya Rabbani, PhD</span>
+  <span>
+    <a href="mailto:yahyarabbani@gmail.com">Email</a> ·
+    <a href="https://www.linkedin.com/in/yahyarabbani/">LinkedIn</a> ·
+    <a href="https://scholar.google.com/citations?user=gk2vj4YAAAAJ&hl=en">Google Scholar</a> ·
+    <a href="https://github.com/YahyaRabbani20">GitHub</a>
+  </span>
+</footer>
+</body>
+</html>
