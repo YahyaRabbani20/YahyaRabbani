@@ -1,8 +1,7 @@
 ---
-layout: archive
+layout: portfolio
 title: "Publications"
 permalink: /publications/
-author_profile: true
 redirect_from:
   - /cv/
   - /resume
