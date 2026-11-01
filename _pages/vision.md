@@ -1,9 +1,17 @@
 ---
 layout: portfolio
-title: "Future research vision"
+title: "Research Vision"
 permalink: /vision/
+hide_title: true
 excerpt: "Physics-informed design, autonomous experimentation, and adaptive materials for sensing."
 ---
+
+<section class="page-banner">
+  <p class="eyebrow">Yahya Rabbani / Research Vision</p>
+  <h1>Research Vision</h1>
+  <p class="keywords">Physics-informed design<span>|</span>Autonomous experimentation<span>|</span>Adaptive materials &amp; sensing</p>
+</section>
+
 My goal is to build an experimentally grounded framework for discovering functional materials and optical sensors: use physics to inform models, experiments to test predictions, and AI to choose promising next steps.
 
 ## Physics-informed materials design
