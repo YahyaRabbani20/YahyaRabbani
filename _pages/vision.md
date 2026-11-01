@@ -15,9 +15,99 @@ excerpt: "Physics-informed design, autonomous experimentation, and adaptive mate
 My goal is to build an experimentally grounded framework for discovering functional materials and optical sensors: use physics to inform models, experiments to test predictions, and AI to choose promising directions for design.
 
 ## Physics-informed materials design
+<img src="{{ '/images/research/dna-nanotube.webp' | relative_url }}" alt="DNA nanotube with coordinated ligands and functionalized structure" style="float: right; width: min(440px, 42vw); margin: 0 0 1rem 1.5rem; border-radius: 14px; box-shadow: 0 12px 30px rgba(24, 74, 140, 0.18);">
+
 I will integrate physics-based modeling with machine learning to connect material interfaces and functional properties. Beginning with ssDNA–SWCNT systems, I aim to guide functionalization strategies and improve the rational design of nanoscale sensor architectures.
 
 ## Autonomous experimentation
+<svg viewBox="0 0 760 400" role="img" aria-label="Autonomous experimentation workflow with robotic sample handling and optical screening" xmlns="http://www.w3.org/2000/svg" style="float: right; width: min(560px, 52vw); margin: 0 0 1rem 1.5rem;">
+  <defs>
+    <linearGradient id="armMetal" x1="0" x2="1">
+      <stop offset="0%" stop-color="#dfeaf3"/>
+      <stop offset="35%" stop-color="#8ea7b8"/>
+      <stop offset="60%" stop-color="#d3dde7"/>
+      <stop offset="100%" stop-color="#7a90a5"/>
+    </linearGradient>
+    <linearGradient id="plateBlue" x1="0" x2="1">
+      <stop offset="0%" stop-color="#1db3d8"/>
+      <stop offset="100%" stop-color="#1e67c9"/>
+    </linearGradient>
+    <linearGradient id="netFill" x1="0" x2="1">
+      <stop offset="0%" stop-color="#20a6d7"/>
+      <stop offset="40%" stop-color="#4b87ff"/>
+      <stop offset="100%" stop-color="#d471ff"/>
+    </linearGradient>
+  </defs>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 122 110 L 170 78 L 215 110 L 270 170" stroke="#0c56b5" stroke-width="12" opacity="0.82"/>
+    <path d="M 206 179 L 270 224 L 314 178" stroke="#0c56b5" stroke-width="12" opacity="0.82"/>
+    <path d="M 270 224 L 362 220" stroke="#0c56b5" stroke-width="12" opacity="0.82"/>
+    <path d="M 362 220 L 430 245" stroke="#0c56b5" stroke-width="12" opacity="0.82"/>
+  </g>
+
+  <g>
+    <rect x="60" y="110" width="150" height="42" rx="18" fill="url(#armMetal)"/>
+    <rect x="165" y="90" width="94" height="26" rx="12" fill="url(#armMetal)" transform="rotate(24 165 90)"/>
+    <rect x="216" y="160" width="118" height="28" rx="14" fill="url(#armMetal)" transform="rotate(-18 216 160)"/>
+    <rect x="300" y="198" width="116" height="24" rx="12" fill="url(#armMetal)" transform="rotate(14 300 198)"/>
+    <rect x="392" y="208" width="122" height="20" rx="10" fill="url(#armMetal)"/>
+    <circle cx="332" cy="216" r="18" fill="#0d3e7f"/>
+    <circle cx="332" cy="216" r="9" fill="#27d2e6"/>
+    <rect x="375" y="206" width="84" height="22" rx="10" fill="#dfe6ef"/>
+    <rect x="425" y="187" width="95" height="92" rx="18" fill="#2c5ea5"/>
+    <rect x="442" y="200" width="62" height="58" rx="12" fill="url(#plateBlue)"/>
+    <g fill="#efefef">
+      <circle cx="460" cy="220" r="9"/>
+      <circle cx="486" cy="220" r="9"/>
+      <circle cx="460" cy="246" r="9"/>
+      <circle cx="486" cy="246" r="9"/>
+    </g>
+  </g>
+
+  <g>
+    <path d="M 428 290 C 515 330, 590 330, 645 290" fill="none" stroke="#0d74d9" stroke-width="10" opacity="0.9"/>
+    <path d="M 470 350 C 550 310, 625 300, 690 320" fill="none" stroke="#0d74d9" stroke-width="10" opacity="0.9"/>
+  </g>
+
+  <g transform="translate(170 260)">
+    <g fill="url(#netFill)" stroke="#c5e6ff" stroke-width="2">
+      <circle cx="0" cy="0" r="12"/>
+      <circle cx="42" cy="26" r="12"/>
+      <circle cx="82" cy="0" r="12"/>
+      <circle cx="118" cy="34" r="12"/>
+      <circle cx="155" cy="0" r="12"/>
+      <circle cx="198" cy="26" r="12"/>
+      <circle cx="240" cy="0" r="12"/>
+    </g>
+    <g stroke="#89d1ff" stroke-width="3" fill="none">
+      <path d="M 0 0 L 42 26 L 82 0 L 118 34 L 155 0 L 198 26 L 240 0"/>
+      <path d="M 0 0 L 82 0"/>
+      <path d="M 42 26 L 118 34 L 198 26"/>
+      <path d="M 155 0 L 118 34 L 240 0"/>
+    </g>
+  </g>
+
+  <g>
+    <rect x="88" y="208" width="170" height="118" rx="18" fill="#0b2d69" opacity="0.18"/>
+    <rect x="98" y="218" width="150" height="98" rx="14" fill="#3bb7df" opacity="0.72"/>
+    <g fill="#fff" opacity="0.9">
+      <rect x="110" y="230" width="18" height="18" rx="4"/>
+      <rect x="136" y="230" width="18" height="18" rx="4"/>
+      <rect x="162" y="230" width="18" height="18" rx="4"/>
+      <rect x="188" y="230" width="18" height="18" rx="4"/>
+      <rect x="110" y="254" width="18" height="18" rx="4"/>
+      <rect x="136" y="254" width="18" height="18" rx="4"/>
+      <rect x="162" y="254" width="18" height="18" rx="4"/>
+      <rect x="188" y="254" width="18" height="18" rx="4"/>
+      <rect x="110" y="278" width="18" height="18" rx="4"/>
+      <rect x="136" y="278" width="18" height="18" rx="4"/>
+      <rect x="162" y="278" width="18" height="18" rx="4"/>
+      <rect x="188" y="278" width="18" height="18" rx="4"/>
+    </g>
+  </g>
+</svg>
+
 I will build on high-throughput nanosensor preparation and near-infrared characterization by integrating robotic liquid handling, automated measurements, and AI-guided experiment selection. The goal is to accelerate discovery cycles by coupling data-driven decision-making with physically interpretable models.
 
 ## Adaptive materials and sensing
