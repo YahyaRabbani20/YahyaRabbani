@@ -9,12 +9,33 @@ excerpt: "Publications, patents, and books by Yahya Rabbani on AI-guided nanobio
 <section class="page-banner">
   <p class="eyebrow">Yahya Rabbani / Publications</p>
   <h1>Publications</h1>
-  <p class="keywords">Nanobiosensors<span>|</span>Machine learning<span>|</span>Materials engineering<span>|</span>Process modeling</p>
+  <p class="keywords"><span>|Chemical Engineering </span>Machine learning<span>|</span>Experimental Nanobiotechnology <span>|</span>Nanobiosensors</p>
 </section>
 
 <p class="statement">My publications span two connected bodies of work: <strong>AI-guided design of DNA-wrapped carbon nanotube optical sensors</strong> at EPFL, and earlier research in <strong>chemical engineering, materials, and process systems</strong> across Iran and Europe.</p>
 
 <p class="note">Full and up-to-date record on <a href="https://scholar.google.com/citations?user=gk2vj4YAAAAJ&hl=en">Google Scholar</a>. Code for the AI-guided discovery work is on <a href="https://github.com/YahyaRabbani20/AI-BioSense">GitHub</a>.</p>
+
+
+<h2>Patents</h2>
+<ol class="pub-list">
+  <li><strong>Y. Rabbani</strong> (60%), J. Bregy, A. A. Boghossian, “Optimizing optical nano-biosensors made of single-walled carbon nanotubes wrapped in single-stranded DNA sequences for detection of molecules such as glucose and cancer biomarkers (AI-enabled discovery platform),” <a href="https://patents.google.com/patent/EP4742248A1/en?q=(Yahya+rabbani)&oq=Yahya+rabbani">EP4742248A1</a>.</li>
+  <li><strong>Y. Rabbani</strong> (80%), A. Hamta, “Sustainable magnetorheological fluid synthesis with proper rheological properties for industrial applications using nanoparticles and stabilizing additives,” Iranian Patent No. 98516, 2017.</li>
+</ol>
+
+<h2>Books and book chapters</h2>
+<ol class="pub-list">
+  <li>S. Behjati, <strong>Y. Rabbani</strong>, A. A. Boghossian, “Bioengineering DNA for Carbon Nanotube Sensors,” in <span class="venue">Handbook of Carbon Nanomaterials</span>, Vol. 2, Ch. 8, 2025.</li>
+  <li><strong>Y. Rabbani</strong>, S. M. Sadeghi, <span class="venue">Process Optimization in Chemical Engineering</span>, 2020.</li>
+</ol>
+
+<h2>Manuscripts in submission and preparation</h2>
+<ol class="pub-list">
+  <li><strong>Y. Rabbani</strong>, S. Behjati (equal contribution), B. Rousseau, S. H. Sajjadi, N. Sharif, A. A. Boghossian, “A new clustering approach for the engineering of the ssDNA-SWCNT sensor for OPG cancer biomarker detection.” <span class="badge">In preparation</span></li>
+  <li><strong>Y. Rabbani</strong>, S. H. Sajjadi, S. Behjati, N. Sharif, A. A. Boghossian, “Machine learning engineering of ssDNA-SWCNT sensors for nitric oxide detection.” <span class="badge">In preparation</span></li>
+  <li>B. Rousseau, <strong>Y. Rabbani</strong>, S. Behjati, S. H. Sajjadi, A. A. Boghossian, “Machine learning engineering of ssDNA hybridization on the surface of SWCNTs.” <span class="badge">In preparation</span></li>
+</ol>
+
 
 <h2>Nanobiosensors and machine learning</h2>
 <ol class="pub-list">
@@ -38,24 +59,6 @@ excerpt: "Publications, patents, and books by Yahya Rabbani on AI-guided nanobio
   </li>
 </ol>
 
-<h2>Manuscripts in submission and preparation</h2>
-<ol class="pub-list">
-  <li><strong>Y. Rabbani</strong>, S. Behjati (equal contribution), B. Rousseau, S. H. Sajjadi, N. Sharif, A. A. Boghossian, “A new clustering approach for the engineering of the ssDNA-SWCNT sensor for OPG cancer biomarker detection.” <span class="badge">In preparation</span></li>
-  <li><strong>Y. Rabbani</strong>, S. H. Sajjadi, S. Behjati, N. Sharif, A. A. Boghossian, “Machine learning engineering of ssDNA-SWCNT sensors for nitric oxide detection.” <span class="badge">In preparation</span></li>
-  <li>B. Rousseau, <strong>Y. Rabbani</strong>, S. Behjati, S. H. Sajjadi, A. A. Boghossian, “Machine learning engineering of ssDNA hybridization on the surface of SWCNTs.” <span class="badge">In preparation</span></li>
-</ol>
-
-<h2>Patents</h2>
-<ol class="pub-list">
-  <li><strong>Y. Rabbani</strong> (60%), J. Bregy, A. A. Boghossian, “Optimizing optical nano-biosensors made of single-walled carbon nanotubes wrapped in single-stranded DNA sequences for detection of molecules such as glucose and cancer biomarkers (AI-enabled discovery platform),” <a href="https://patents.google.com/patent/EP4742248A1/en?q=(Yahya+rabbani)&oq=Yahya+rabbani">EP4742248A1</a>.</li>
-  <li><strong>Y. Rabbani</strong> (80%), A. Hamta, “Sustainable magnetorheological fluid synthesis with proper rheological properties for industrial applications using nanoparticles and stabilizing additives,” Iranian Patent No. 98516, 2017.</li>
-</ol>
-
-<h2>Books and book chapters</h2>
-<ol class="pub-list">
-  <li>S. Behjati, <strong>Y. Rabbani</strong>, A. A. Boghossian, “Bioengineering DNA for Carbon Nanotube Sensors,” in <span class="venue">Handbook of Carbon Nanomaterials</span>, Vol. 2, Ch. 8, 2025.</li>
-  <li><strong>Y. Rabbani</strong>, S. M. Sadeghi, <span class="venue">Process Optimization in Chemical Engineering</span>, 2020.</li>
-</ol>
 
 <h2>Process, materials, and environmental engineering</h2>
 <ol class="pub-list">
