@@ -2,6 +2,9 @@
 layout: portfolio
 title: "Contact"
 permalink: /contact/
+redirect_from:
+  - /cv/
+  - /resume
 hide_title: true
 excerpt: "Get in touch with Yahya Rabbani about nanobiosensing, AI-guided materials discovery, and research collaboration."
 ---
