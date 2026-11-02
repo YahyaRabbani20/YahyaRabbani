@@ -55,7 +55,7 @@ excerpt: "News from Yahya Rabbani: papers, talks, patents, and students."
   </div>
 </article>
 <article class="news-item">
-  <div class="news-pic"><img src="{{ '/images/Image_H_Design.png' | relative_url }}" alt="" loading="lazy"></div>
+  <div class="news-pic ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></div>
   <div class="news-body">
     <p class="news-date">June 1, 2025<span class="news-tag">Book chapter</span></p>
     <h3>Chapter in the Handbook of Carbon Nanomaterials</h3>
@@ -76,7 +76,7 @@ excerpt: "News from Yahya Rabbani: papers, talks, patents, and students."
 <section class="news-year-group">
 <h2 class="news-year">2024</h2>
 <article class="news-item">
-  <div class="news-pic"><img src="{{ '/images/Image_H_Learn.png' | relative_url }}" alt="" loading="lazy"></div>
+  <div class="news-pic ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="2" width="6" height="12" rx="3"/><path d="M5 10a7 7 0 0 0 14 0"/><path d="M12 17v4"/><path d="M8 21h8"/></svg></div>
   <div class="news-body">
     <p class="news-date">December 3, 2024<span class="news-tag">Invited talk</span></p>
     <h3>Our machine learning work in an invited talk at MRS Fall 2024</h3>
