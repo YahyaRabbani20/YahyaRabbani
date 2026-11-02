@@ -87,7 +87,7 @@ redirect_from:
     <article class="project">
       <span class="number">01 / GLUCOSE</span>
       <h3>Non-enzymatic optical glucose sensing</h3>
-      <p>AI-guided screening and deep learning identified DNA–nanotube sensors with glucose-responsive optical signatures.</p>
+      <p>AI-guided screening and deep learning identified DNA-nanotube sensors with glucose-responsive optical signatures.</p>
     </article>
     <article class="project">
       <span class="number">02 / OPG PROTEIN</span>
@@ -96,7 +96,7 @@ redirect_from:
     </article>
     <article class="project">
       <span class="number">03 / NITRIC OXIDE</span>
-      <h3>Learning sequence–response relationships</h3>
+      <h3>Linking DNA sequence to sensor response</h3>
       <p>Data-driven modeling connects DNA sequence composition to optical response for nitric oxide detection and other analytes.</p>
     </article>
     <article class="project">
