@@ -212,7 +212,7 @@ excerpt: "Publications, patents, and books by Yahya Rabbani on AI-guided nanobio
     <a class="read-btn" href="https://doi.org/10.1007/s10973-018-7538-7" target="_blank" rel="noopener">Read paper</a>
   </div>
 </article>
-<article class="pub-card" data-cat="surf">
+<article class="pub-card" data-cat="surf bio">
   <a class="pub-thumb" href="https://doi.org/10.1016/j.colsurfa.2017.01.081" target="_blank" rel="noopener"><img src="https://ars.els-cdn.com/content/image/1-s2.0-S0927775717301176-fx1.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></a>
   <div class="pub-meta">
     <p><span class="lbl">Title</span><span class="ttl">Application of artificial neural networks and support vector regression modeling in prediction of magnetorheological fluid rheometry</span></p>
