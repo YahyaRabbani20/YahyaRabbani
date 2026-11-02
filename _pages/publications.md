@@ -52,7 +52,7 @@ excerpt: "Publications, patents, and books by Yahya Rabbani on AI-guided nanobio
   </div>
 </article>
 <article class="pub-card" data-cat="ai-bio">
-  <a class="pub-thumb ph" href="https://www.sciencedirect.com/science/article/pii/S0956566325009698" target="_blank" rel="noopener"><b>Biosensors and Bioelectronics</b><span>2026</span></a>
+  <a class="pub-thumb" href="https://www.sciencedirect.com/science/article/pii/S0956566325009698" target="_blank" rel="noopener"><img src="https://ars.els-cdn.com/content/image/1-s2.0-S0956566325009698-gr1.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></a>
   <div class="pub-meta">
     <p><span class="lbl">Title</span><span class="ttl">Single-walled carbon nanotube biosensor for real-time monitoring of nitric oxide in inflammatory responses</span></p>
     <p><span class="lbl">Authors</span><span class="auth">V. Zubkovs, L. Belcastro, S. H. Sajjadi, <strong>Y. Rabbani</strong>, A. Rastiniemi, …, S. Cattaneo, A. A. Boghossian, V. Basoli</span></p>
@@ -133,7 +133,7 @@ excerpt: "Publications, patents, and books by Yahya Rabbani on AI-guided nanobio
   </div>
 </article>
 <article class="pub-card" data-cat="surf">
-  <a class="pub-thumb ph" href="https://doi.org/10.1038/s41598-023-31770-x" target="_blank" rel="noopener"><b>Scientific Reports</b><span>2023</span></a>
+  <a class="pub-thumb" href="https://doi.org/10.1038/s41598-023-31770-x" target="_blank" rel="noopener"><img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41598-023-31770-x/MediaObjects/41598_2023_31770_Fig6_HTML.png" alt="" loading="lazy" referrerpolicy="no-referrer"></a>
   <div class="pub-meta">
     <p><span class="lbl">Title</span><span class="ttl">Durable superhydrophobic/superoleophilic melamine foam based on biomass-derived porous carbon and multi-walled carbon nanotube for oil/water separation</span></p>
     <p><span class="lbl">Authors</span><span class="auth">H. Shayesteh, M. S. Khosrowshahi, H. Mashhadimoslem, F. Maleki, <strong>Y. Rabbani</strong>, et al.</span></p>
@@ -142,7 +142,7 @@ excerpt: "Publications, patents, and books by Yahya Rabbani on AI-guided nanobio
   </div>
 </article>
 <article class="pub-card" data-cat="surf">
-  <a class="pub-thumb ph" href="https://doi.org/10.1038/s41598-023-28131-z" target="_blank" rel="noopener"><b>Scientific Reports</b><span>2023</span></a>
+  <a class="pub-thumb" href="https://doi.org/10.1038/s41598-023-28131-z" target="_blank" rel="noopener"><img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1038%2Fs41598-023-28131-z/MediaObjects/41598_2023_28131_Fig5_HTML.png" alt="" loading="lazy" referrerpolicy="no-referrer"></a>
   <div class="pub-meta">
     <p><span class="lbl">Title</span><span class="ttl">Investigation of grafting silane coupling agents on superhydrophobicity of carbonyl iron/SiO₂ particles for efficient oil/water mixture and emulsion separation</span></p>
     <p><span class="lbl">Authors</span><span class="auth"><strong>Y. Rabbani</strong>, H. Shayesteh, N. Haghshenas, M. Safarzadeh Khosrowshahi</span></p>
@@ -151,7 +151,7 @@ excerpt: "Publications, patents, and books by Yahya Rabbani on AI-guided nanobio
   </div>
 </article>
 <article class="pub-card" data-cat="bio">
-  <a class="pub-thumb ph" href="https://doi.org/10.1007/s12649-022-01800-2" target="_blank" rel="noopener"><b>Waste and Biomass Valorization</b><span>2022</span></a>
+  <a class="pub-thumb" href="https://doi.org/10.1007/s12649-022-01800-2" target="_blank" rel="noopener"><img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs12649-022-01800-2/MediaObjects/12649_2022_1800_Figa_HTML.png" alt="" loading="lazy" referrerpolicy="no-referrer"></a>
   <div class="pub-meta">
     <p><span class="lbl">Title</span><span class="ttl">Integrated CO₂ capture and nutrient removal by microalgae Chlorella vulgaris and optimization using neural network and support vector regression</span></p>
     <p><span class="lbl">Authors</span><span class="auth">N. Hajinajaf, A. Fallahi, <strong>Y. Rabbani</strong>, O. Tavakoli, M. H. Sarrafzadeh</span></p>
@@ -160,7 +160,7 @@ excerpt: "Publications, patents, and books by Yahya Rabbani on AI-guided nanobio
   </div>
 </article>
 <article class="pub-card" data-cat="bio">
-  <a class="pub-thumb ph" href="https://doi.org/10.1007/s13762-021-03760-x" target="_blank" rel="noopener"><b>Int. J. Environ. Sci. Technol.</b><span>2022</span></a>
+  <a class="pub-thumb" href="https://doi.org/10.1007/s13762-021-03760-x" target="_blank" rel="noopener"><img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs13762-021-03760-x/MediaObjects/13762_2021_3760_Fig2_HTML.png" alt="" loading="lazy" referrerpolicy="no-referrer"></a>
   <div class="pub-meta">
     <p><span class="lbl">Title</span><span class="ttl">Experimental and modeling assessment of large-scale cultivation of microalgae Nannochloropsis sp. PTCC 6016 to reach high efficiency lipid extraction</span></p>
     <p><span class="lbl">Authors</span><span class="auth">N. Hajinajaf, <strong>Y. Rabbani</strong>, A. Mehrabadi, O. Tavakoli</span></p>
@@ -178,7 +178,7 @@ excerpt: "Publications, patents, and books by Yahya Rabbani on AI-guided nanobio
   </div>
 </article>
 <article class="pub-card" data-cat="surf">
-  <a class="pub-thumb ph" href="https://doi.org/10.1016/j.ceramint.2021.06.257" target="_blank" rel="noopener"><b>Ceramics International</b><span>2021</span></a>
+  <a class="pub-thumb" href="https://doi.org/10.1016/j.ceramint.2021.06.257" target="_blank" rel="noopener"><img src="https://ars.els-cdn.com/content/image/1-s2.0-S0272884221020174-gr3.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></a>
   <div class="pub-meta">
     <p><span class="lbl">Title</span><span class="ttl">The effect of superhydrophobicity of prickly shape carbonyl iron particles on the oil-water adsorption</span></p>
     <p><span class="lbl">Authors</span><span class="auth"><strong>Y. Rabbani</strong>, M. Shariaty-Niassar, S. A. S. Ebrahimi</span></p>
@@ -205,7 +205,7 @@ excerpt: "Publications, patents, and books by Yahya Rabbani on AI-guided nanobio
   </div>
 </article>
 <article class="pub-card" data-cat="mr">
-  <a class="pub-thumb ph" href="https://doi.org/10.1007/s10973-018-7538-7" target="_blank" rel="noopener"><b>J. Therm. Anal. Calorim.</b><span>2019</span></a>
+  <a class="pub-thumb" href="https://doi.org/10.1007/s10973-018-7538-7" target="_blank" rel="noopener"><img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs10973-018-7538-7/MediaObjects/10973_2018_7538_Fig4_HTML.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></a>
   <div class="pub-meta">
     <p><span class="lbl">Title</span><span class="ttl">An experimental study on stability and rheological properties of magnetorheological fluid using iron nanoparticle core-shell structured by cellulose</span></p>
     <p><span class="lbl">Authors</span><span class="auth"><strong>Y. Rabbani</strong>, N. Hajinajaf, O. Tavakoli</span></p>
@@ -214,7 +214,7 @@ excerpt: "Publications, patents, and books by Yahya Rabbani on AI-guided nanobio
   </div>
 </article>
 <article class="pub-card" data-cat="mr">
-  <a class="pub-thumb ph" href="https://doi.org/10.1016/j.colsurfa.2017.01.081" target="_blank" rel="noopener"><b>Colloids and Surfaces A</b><span>2017</span></a>
+  <a class="pub-thumb" href="https://doi.org/10.1016/j.colsurfa.2017.01.081" target="_blank" rel="noopener"><img src="https://ars.els-cdn.com/content/image/1-s2.0-S0927775717301176-fx1.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></a>
   <div class="pub-meta">
     <p><span class="lbl">Title</span><span class="ttl">Application of artificial neural networks and support vector regression modeling in prediction of magnetorheological fluid rheometry</span></p>
     <p><span class="lbl">Authors</span><span class="auth"><strong>Y. Rabbani</strong>, M. Shirvani, S. H. Hashemabadi, M. Keshavarz</span></p>
