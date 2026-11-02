@@ -92,6 +92,15 @@ excerpt: "News from Yahya Rabbani: papers, talks, patents, and students."
   </div>
 </article>
 <article class="news-item">
+  <div class="news-pic"><img src="{{ '/images/Image_H_All.png' | relative_url }}" alt="" loading="lazy"></div>
+  <div class="news-body">
+    <p class="news-date">November 2024<span class="news-tag">Patent</span></p>
+    <h3>European patent application filed by EPFL</h3>
+    <p>EPFL files a European patent application (EP 24211885.9) for our invention on optimizing optical nano-biosensors made of single-walled carbon nanotubes wrapped in single-stranded DNA, for detecting molecules such as glucose and cancer biomarkers.</p>
+    <a class="news-link" href="https://patents.google.com/patent/EP4742248A1/en" target="_blank" rel="noopener">See the patent →</a>
+  </div>
+</article>
+<article class="news-item">
   <div class="news-pic"><img src="{{ '/images/Image_P4b.png' | relative_url }}" alt="" loading="lazy"></div>
   <div class="news-body">
     <p class="news-date">April 24, 2024<span class="news-tag">Talk</span></p>
@@ -112,12 +121,11 @@ excerpt: "News from Yahya Rabbani: papers, talks, patents, and students."
 <section class="news-year-group">
 <h2 class="news-year">2023</h2>
 <article class="news-item">
-  <div class="news-pic"><img src="{{ '/images/Image_P4a.png' | relative_url }}" alt="" loading="lazy"></div>
+  <div class="news-pic ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 9l10-5 10 5-10 5-10-5z"/><path d="M6 11v5c0 1.5 2.7 3 6 3s6-1.5 6-3v-5"/><path d="M22 9v6"/></svg></div>
   <div class="news-body">
-    <p class="news-date">November 22, 2023<span class="news-tag">Talk</span></p>
-    <h3>Talk at the 244th ECS Meeting in Gothenburg</h3>
-    <p>I present “Prediction of Mycotoxin Response of DNA-Wrapped Nanotube Sensor with Machine Learning” at the 244th Electrochemical Society (ECS) Meeting in Gothenburg, Sweden.</p>
-    <a class="news-link" href="https://ecs.confex.com/ecs/244/meetingapp.cgi/Paper/181653" target="_blank" rel="noopener">See abstract →</a>
+    <p class="news-date">December 15, 2023<span class="news-tag">Team</span></p>
+    <h3>My master student Lou de Benedittis defends her project</h3>
+    <p>My master student Lou de Benedittis successfully defends her semester project on the selectivity and sensitivity of DNA-wrapped nanotube sensors. Congratulations, Lou!</p>
   </div>
 </article>
 <article class="news-item">
@@ -126,6 +134,31 @@ excerpt: "News from Yahya Rabbani: papers, talks, patents, and students."
     <p class="news-date">October 17, 2023<span class="news-tag">Team</span></p>
     <h3>My master student Lou de Benedittis joins the lab</h3>
     <p>Lou de Benedittis, a master student in Biotechnology at EPFL, joins the lab for a semester project with me, exploring the selectivity and sensitivity of DNA-wrapped nanotube sensors. Lou is also a co-author of our glucose sensor preprint. Welcome, Lou!</p>
+  </div>
+</article>
+<article class="news-item">
+  <div class="news-pic ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="7" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><circle cx="17.5" cy="8.5" r="2.5"/><path d="M16 14.2a5 5 0 0 1 6 4.8"/></svg></div>
+  <div class="news-body">
+    <p class="news-date">October 2023<span class="news-tag">Service</span></p>
+    <h3>Co-chair at the 244th ECS Meeting in Gothenburg</h3>
+    <p>I serve as co-chair of the Synthesis and Characterization of Carbons session at the 244th Electrochemical Society (ECS) Meeting in Gothenburg, Sweden.</p>
+  </div>
+</article>
+<article class="news-item">
+  <div class="news-pic"><img src="{{ '/images/Image_P3a.png' | relative_url }}" alt="" loading="lazy"></div>
+  <div class="news-body">
+    <p class="news-date">October 2023<span class="news-tag">Invited talk</span></p>
+    <h3>Invited talk on nitric oxide sensors at the 244th ECS Meeting</h3>
+    <p>I present our invited talk, “Directed Evolution and Machine Learning for Improved ssDNA-SWCNTs Sensor for Nitric Oxide Detection,” at the 244th ECS Meeting in Gothenburg, Sweden.</p>
+  </div>
+</article>
+<article class="news-item">
+  <div class="news-pic"><img src="{{ '/images/Image_P4a.png' | relative_url }}" alt="" loading="lazy"></div>
+  <div class="news-body">
+    <p class="news-date">October 2023<span class="news-tag">Talk</span></p>
+    <h3>Talk on mycotoxin sensors at the 244th ECS Meeting</h3>
+    <p>I present “Prediction of Mycotoxin Response of DNA-Wrapped Nanotube Sensor with Machine Learning” at the 244th ECS Meeting in Gothenburg, Sweden.</p>
+    <a class="news-link" href="https://ecs.confex.com/ecs/244/meetingapp.cgi/Paper/181653" target="_blank" rel="noopener">See abstract →</a>
   </div>
 </article>
 <article class="news-item">
