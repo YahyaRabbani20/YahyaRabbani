@@ -237,3 +237,7 @@ body{padding-bottom:84px}
 .contact-photo-col{display:flex;justify-content:center}
 .contact-wrap .contact-photo{width:280px;height:280px}
 @media(max-width:900px){.contact-wrap{grid-template-columns:1fr}.contact-photo-col{order:-1}.contact-wrap .contact-photo{width:160px;height:160px}}
+
+/* Contact photo: square, uncropped */
+.contact-wrap .contact-photo{width:280px;height:auto;border-radius:10px;object-fit:contain;border:0;box-shadow:0 8px 24px rgba(16,43,72,.12)}
+@media(max-width:900px){.contact-wrap .contact-photo{width:200px;height:auto}}
