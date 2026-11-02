@@ -7,7 +7,6 @@ excerpt: "Physics-informed design, autonomous experimentation, and adaptive mate
 ---
 
 <section class="page-banner">
-  <p class="eyebrow">Yahya Rabbani / Research Vision</p>
   <h1>Research Vision</h1>
   <p class="keywords">Physics-informed design<span>|</span>Autonomous experimentation<span>|</span>Adaptive materials &amp; sensing</p>
 </section>
