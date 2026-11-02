@@ -1,8 +1,8 @@
 ---
 layout: portfolio
 permalink: /
-title: "AI-guided materials and optical sensing"
-excerpt: "Yahya Rabbani combines chemical engineering, experimental nanobiotechnology, and machine learning to design materials and optical nanosensors."
+title: "AI-Guided Design and Automated Experiments for Novel Nanosensors"
+excerpt: "An AI-guided discovery platform that designs, prepares, measures, and learns from DNA-wrapped carbon nanotube sensors."
 home: true
 redirect_from:
   - /about/
@@ -11,13 +11,69 @@ redirect_from:
 
 <section class="hero">
   <div>
-    <p class="eyebrow">Materials · Optical sensing · Machine learning</p>
-    <h1>Designing materials.<br><em>Learning from experiments.</em></h1>
-    <p class="lead">I’m Yahya Rabbani, a chemical engineer and researcher working at the intersection of nanobiotechnology, machine learning, and optical sensing. My work focuses on AI-guided discovery of functional materials and biosensors for healthcare, environment, and molecular diagnostics.</p>
+    <p class="eyebrow">AI-guided discovery platform</p>
+    <h1 style="font-size:clamp(34px,4.2vw,54px)">AI-Guided Design and Automated Experiments for <em>Novel Nanosensors</em></h1>
+    <p class="lead">DNA-wrapped carbon nanotubes glow in the near-infrared, and their glow changes when a target molecule binds. The DNA sequence decides which molecule the sensor responds to, but a 30-base strand alone has about 10<sup>18</sup> possible sequences. This platform searches that space in a loop. It designs a small and diverse set of sequences, prepares and screens them in 384-well plates, measures their optical response automatically, and uses machine learning to pick what to test next. Each round of data improves the next round of predictions.</p>
+    <p class="note">The same approach has been applied to glucose, the cancer protein OPG, nitric oxide, and the food toxin fumonisin B1. European patent application EP 24211885.9.</p>
+    <div class="buttons">
+      <a class="button primary" href="{{ '/research/' | relative_url }}">See the research</a>
+      <a class="button" href="{{ '/vision/' | relative_url }}">Research vision</a>
+    </div>
   </div>
-  <figure class="hero-art">
-    <img src="{{ '/images/research/dna-nanotube.webp' | relative_url }}" alt="Conceptual illustration of a carbon nanotube functionalized with DNA" width="1000" height="667">
+  <figure class="hero-figure">
+    <img src="{{ '/images/Image_H_All.png' | relative_url }}" alt="Discovery funnel narrowing a large pool of DNA sequences through a neural network to a few responsive sensors">
+    <figcaption>The discovery funnel. A very large pool of DNA sequences is narrowed down by experiments and machine learning to a few sensors with the right optical response.</figcaption>
   </figure>
+</section>
+
+<section class="band" id="platform">
+  <p class="eyebrow">How the platform works</p>
+  <h2>Design, prepare, measure, learn</h2>
+  <p class="lead">Four steps repeat in a loop. Each round tests only a small number of sequences, but the results train the models that choose the next set.</p>
+  <div class="thrust">
+    <figure class="thrust-media step-media">
+      <img src="{{ '/images/Image_H_Design.png' | relative_url }}" alt="Sequence representations by alignment, k-mer composition, and predicted folding, followed by clustering and selection of diverse sequences" loading="lazy">
+    </figure>
+    <div>
+      <span class="tag">Step 1 · Design</span>
+      <h3>Sequence selection and predictive modeling</h3>
+      <p>Candidate DNA sequences are described in three ways: how similar they are to each other (MAFFT alignment), which short motifs they contain (k-mers), and how they are likely to fold. Clustering these descriptions splits the sequence space into groups, and one representative is picked from each group.</p>
+      <p>The result is a small set that still covers the variety of the whole space, so very few experiments are wasted.</p>
+    </div>
+  </div>
+  <div class="thrust reverse">
+    <figure class="thrust-media step-media">
+      <img src="{{ '/images/Image_H_Prepare.png' | relative_url }}" alt="DNA exchange onto carbon nanotubes and robotic liquid handling into multi-well plates with analyte and reference wells" loading="lazy">
+    </figure>
+    <div>
+      <span class="tag">Step 2 · Prepare</span>
+      <h3>Automated sample preparation and screening</h3>
+      <p>Each selected sequence is wrapped onto carbon nanotubes by replacing the original surfactant (sodium cholate) with DNA. The samples are brought to the same concentration and placed in 384-well plates with either the target molecule or a buffer blank, in triplicate with matched controls.</p>
+      <p>A pipetting robot can run this step, which keeps volumes and timing the same across every plate.</p>
+    </div>
+  </div>
+  <div class="thrust">
+    <figure class="thrust-media step-media">
+      <img src="{{ '/images/Image_H_Measure.png' | relative_url }}" alt="Near-infrared microscope with 655 and 735 nm excitation and InGaAs detector, and the Python processing pipeline" loading="lazy">
+    </figure>
+    <div>
+      <span class="tag">Step 3 · Measure</span>
+      <h3>Automated near-infrared plate scanning</h3>
+      <p>A custom near-infrared microscope excites each well at 655 and 735 nm and records the fluorescence with an InGaAs detector, while a LabVIEW program moves through the plate.</p>
+      <p>A Python pipeline then cleans each spectrum, fits the peak of each nanotube type, and extracts the change in brightness and peak position. This gives one response value for every sequence and nanotube type.</p>
+    </div>
+  </div>
+  <div class="thrust reverse">
+    <figure class="thrust-media step-media">
+      <img src="{{ '/images/Image_H_Learn.png' | relative_url }}" alt="Optical response data, pattern recognition of positions and motifs, and ensemble learning with CNN, GNN, and GCN models" loading="lazy">
+    </figure>
+    <div>
+      <span class="tag">Step 4 · Learn</span>
+      <h3>Train models and choose the next candidates</h3>
+      <p>The measured responses train three neural networks (CNN, GNN, and GCN), each of which reads the DNA in a different way. Pattern recognition finds which bases and motifs are linked to strong responses and uses them to generate new candidate sequences.</p>
+      <p>The models then vote on these candidates, and the most promising ones go back to the lab. That closes the loop and starts the next round.</p>
+    </div>
+  </div>
 </section>
 
 <section class="band">
@@ -73,55 +129,4 @@ redirect_from:
   <p class="eyebrow">Research foundation</p>
   <h2>From molecular design to functional sensing</h2>
   <p class="lead">My research connects chemical engineering, materials science, and machine learning to discover responsive systems with measurable, real-world function. By combining sequence design, nanoscale materials, and automated experiments, I aim to build tools that help us detect disease biomarkers, study molecular interactions, and accelerate scientific discovery.</p>
-</section>
-
-<section class="band" id="research">
-  <div class="section-top">
-    <div>
-      <p class="eyebrow">Selected research</p>
-      <h2>From sequences to sensing.</h2>
-    </div>
-    <a href="{{ '/publications/' | relative_url }}">View publications</a>
-  </div>
-  <div class="project-grid">
-    <article class="project">
-      <span class="number">01 / GLUCOSE</span>
-      <h3>Non-enzymatic optical glucose sensing</h3>
-      <p>AI-guided screening and deep learning identified DNA-nanotube sensors with glucose-responsive optical signatures.</p>
-    </article>
-    <article class="project">
-      <span class="number">02 / OPG PROTEIN</span>
-      <h3>Clustering-assisted directed evolution</h3>
-      <p>Sequence clustering, mutation design, and experimental selection helped identify improved cancer-biomarker sensor variants.</p>
-    </article>
-    <article class="project">
-      <span class="number">03 / NITRIC OXIDE</span>
-      <h3>Linking DNA sequence to sensor response</h3>
-      <p>Data-driven modeling connects DNA sequence composition to optical response for nitric oxide detection and other analytes.</p>
-    </article>
-    <article class="project">
-      <span class="number">04 / MYCOTOXINS</span>
-      <h3>Predictive sensor screening</h3>
-      <p>Machine learning models predict sensor behavior to guide experimental screening for mycotoxin and related molecular targets.</p>
-    </article>
-  </div>
-</section>
-
-<section class="band">
-  <div class="about">
-    <img class="portrait" src="{{ '/images/profil.jpg' | relative_url }}" alt="Yahya Rabbani" loading="lazy">
-    <div>
-      <p class="eyebrow">About me</p>
-      <h2>Engineer, scientist, and builder of data-driven discovery systems.</h2>
-      <p>I work across chemistry, engineering, and computational modeling to build more effective tools for sensing, materials design, and scientific discovery. My training spans chemical engineering, nanobiotechnology, and applied machine learning, with a strong interest in projects that connect fundamental science to meaningful real-world impact.</p>
-      <p><a href="{{ '/contact/' | relative_url }}">Get in touch</a></p>
-    </div>
-  </div>
-</section>
-
-<section class="contact" id="connect">
-  <p class="eyebrow" style="color:#a9dfd5">Explore my research & connect</p>
-  <h2>Let’s connect ideas and experiments.</h2>
-  <p>I welcome conversations around nanobiosensing, AI-guided materials discovery, molecular diagnostics, and interdisciplinary research collaboration.</p>
-  <p><a href="{{ '/contact/' | relative_url }}">Contact information</a> · <a href="{{ '/publications/' | relative_url }}">Selected publications</a></p>
 </section>
