@@ -203,3 +203,11 @@ body{padding-bottom:84px}
 .news-link{font-weight:700;color:#1f6fa8;text-decoration:none}
 .news-link:hover{text-decoration:underline}
 @media(max-width:700px){.news-item{grid-template-columns:1fr;gap:14px}.news-pic{max-width:360px}.news-year{font-size:24px}}
+
+/* ===== Contact & CV ===== */
+.contact-grid.two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.cv-card{display:flex;flex-direction:column}
+.cv-btn{align-self:flex-start;margin-top:14px;display:inline-flex;align-items:center;justify-content:center;height:48px;padding:0 26px;border-radius:999px;background:var(--ink);color:#fff!important;font-size:14px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;text-decoration:none;transition:background .2s}
+.cv-btn:hover{background:#1f6fa8}
+.cv-btn.is-off{background:#e6ecec;color:var(--muted)!important;cursor:default}
+@media(max-width:700px){.contact-grid.two{grid-template-columns:1fr}}
