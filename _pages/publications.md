@@ -51,7 +51,7 @@ excerpt: "Publications, patents, and books by Yahya Rabbani on AI-guided nanobio
   <li>S. Behjati, L. Huang, B. Rousseau, <strong>Y. Rabbani</strong>, H. Wang, S. Dehury, R. Di Costanzo, S. H. Sajjadi, D. Constam, A. A. Boghossian, “Enabling pH resilience of an optical glutathione sensor by distinguishing enthalpy- and entropy-driven interactions,” <span class="venue">Small Methods</span>, 2025.
     <div class="pub-links"></div>
   </li>
-  <li>S. H. Sajjadi, S. J. Wu, <strong>Y. Rabbani</strong>, V. Zubkovs, H. Ahmadzadeh, et al., “Micropreparative Gel Electrophoresis for Purification of Nanoscale Bioconjugates,” <span class="venue">Bioconjugate Chemistry</span>, 35(2), 154–163, 2024.
+  <li>S. H. Sajjadi, S. J. Wu, <strong>Y. Rabbani</strong>, V. Zubkovs, H. Ahmadzadeh, et al., “Micropreparative Gel Electrophoresis for Purification of Nanoscale Bioconjugates,” <span class="venue">Bioconjugate Chemistry</span>, 35(2), 154-163, 2024.
     <div class="pub-links"><a href="https://scholar.google.com/scholar?q=%22Micropreparative%20Gel%20Electrophoresis%20for%20Purification%20of%20Nanoscale%20Bioconjugates%22">Find paper</a></div>
   </li>
   <li><strong>Y. Rabbani</strong>, S. Behjati, B. Lambert, S. H. Sajjadi, M. Shariaty-Niassar, et al., “Prediction of Mycotoxin Response of DNA-Wrapped Nanotube Sensor with Machine Learning,” <span class="venue">bioRxiv</span>, 2023.
@@ -71,28 +71,28 @@ excerpt: "Publications, patents, and books by Yahya Rabbani on AI-guided nanobio
   <li><strong>Y. Rabbani</strong>, H. Shayesteh, N. Haghshenas, M. Safarzadeh Khosrowshahi, “Investigation of Grafting Silane Coupling Agents on Superhydrophobicity of Carbonyl Iron/SiO₂ Particles for Efficient Oil/Water Mixture and Emulsion Separation,” <span class="venue">Scientific Reports</span>, 13(1), 788, 2023.
     <div class="pub-links"><a href="https://scholar.google.com/scholar?q=%22Investigation%20of%20Grafting%20Silane%20Coupling%20Agents%20on%20Superhydrophobicity%20of%20Carbonyl%20Iron%2FSiO%E2%82%82%20Particles%20for%20Efficient%20Oil%2FWater%20Mixture%20and%20Emulsion%20Separation%22">Find paper</a></div>
   </li>
-  <li>N. Hajinajaf, A. Fallahi, <strong>Y. Rabbani</strong>, O. Tavakoli, M. H. Sarrafzadeh, “Integrated CO2 Capture and Nutrient Removal by Microalgae Chlorella vulgaris and Optimization Using Neural Network and Support Vector Regression,” <span class="venue">Waste and Biomass Valorization</span>, 13(12), 4749–4770, 2022.
+  <li>N. Hajinajaf, A. Fallahi, <strong>Y. Rabbani</strong>, O. Tavakoli, M. H. Sarrafzadeh, “Integrated CO2 Capture and Nutrient Removal by Microalgae Chlorella vulgaris and Optimization Using Neural Network and Support Vector Regression,” <span class="venue">Waste and Biomass Valorization</span>, 13(12), 4749-4770, 2022.
     <div class="pub-links"><a href="https://scholar.google.com/scholar?q=%22Integrated%20CO2%20Capture%20and%20Nutrient%20Removal%20by%20Microalgae%20Chlorella%20vulgaris%20and%20Optimization%20Using%20Neural%20Network%20and%20Support%20Vector%20Regression%22">Find paper</a></div>
   </li>
-  <li>N. Hajinajaf, <strong>Y. Rabbani</strong>, A. Mehrabadi, O. Tavakoli, “Experimental and Modeling Assessment of Large-Scale Cultivation of Microalgae Nannochloropsis sp. PTCC 6016 to Reach High Efficiency Lipid Extraction,” <span class="venue">International Journal of Environmental Science and Technology</span>, 19(6), 5511–5528, 2022.
+  <li>N. Hajinajaf, <strong>Y. Rabbani</strong>, A. Mehrabadi, O. Tavakoli, “Experimental and Modeling Assessment of Large-Scale Cultivation of Microalgae Nannochloropsis sp. PTCC 6016 to Reach High Efficiency Lipid Extraction,” <span class="venue">International Journal of Environmental Science and Technology</span>, 19(6), 5511-5528, 2022.
     <div class="pub-links"><a href="https://scholar.google.com/scholar?q=%22Experimental%20and%20Modeling%20Assessment%20of%20Large-Scale%20Cultivation%20of%20Microalgae%20Nannochloropsis%20sp.%20PTCC%206016%20to%20Reach%20High%20Efficiency%20Lipid%20Extraction%22">Find paper</a></div>
   </li>
-  <li><strong>Y. Rabbani</strong>, M. Shariaty-Niassar, S. A. S. Ebrahimi, “The Optimization Effect of Different Parameters on the Super Hydrophobicity of Prickly-Shaped Carbonyl Iron Particles,” <span class="venue">RSC Advances</span>, 12(20), 12760–12772, 2022.
+  <li><strong>Y. Rabbani</strong>, M. Shariaty-Niassar, S. A. S. Ebrahimi, “The Optimization Effect of Different Parameters on the Super Hydrophobicity of Prickly-Shaped Carbonyl Iron Particles,” <span class="venue">RSC Advances</span>, 12(20), 12760-12772, 2022.
     <div class="pub-links"><a href="https://scholar.google.com/scholar?q=%22The%20Optimization%20Effect%20of%20Different%20Parameters%20on%20the%20Super%20Hydrophobicity%20of%20Prickly-Shaped%20Carbonyl%20Iron%20Particles%22">Find paper</a></div>
   </li>
-  <li><strong>Y. Rabbani</strong>, M. Shariaty-Niassar, S. A. S. Ebrahimi, “The Effect of Superhydrophobicity of Prickly Shape Carbonyl Iron Particles on the Oil-Water Adsorption,” <span class="venue">Ceramics International</span>, 47(20), 28400–28410, 2021.
+  <li><strong>Y. Rabbani</strong>, M. Shariaty-Niassar, S. A. S. Ebrahimi, “The Effect of Superhydrophobicity of Prickly Shape Carbonyl Iron Particles on the Oil-Water Adsorption,” <span class="venue">Ceramics International</span>, 47(20), 28400-28410, 2021.
     <div class="pub-links"><a href="https://scholar.google.com/scholar?q=%22The%20Effect%20of%20Superhydrophobicity%20of%20Prickly%20Shape%20Carbonyl%20Iron%20Particles%20on%20the%20Oil-Water%20Adsorption%22">Find paper</a></div>
   </li>
-  <li>J. Maroofi, S. H. Hashemabadi, <strong>Y. Rabbani</strong>, “Investigation of the Chain Formation Effect on Thermal Conductivity of Magnetorheological Fluids,” <span class="venue">Journal of Thermophysics and Heat Transfer</span>, 34(1), 3–12, 2020.
+  <li>J. Maroofi, S. H. Hashemabadi, <strong>Y. Rabbani</strong>, “Investigation of the Chain Formation Effect on Thermal Conductivity of Magnetorheological Fluids,” <span class="venue">Journal of Thermophysics and Heat Transfer</span>, 34(1), 3-12, 2020.
     <div class="pub-links"><a href="https://scholar.google.com/scholar?q=%22Investigation%20of%20the%20Chain%20Formation%20Effect%20on%20Thermal%20Conductivity%20of%20Magnetorheological%20Fluids%22">Find paper</a></div>
   </li>
-  <li><strong>Y. Rabbani</strong>, N. Hajinajaf, O. Tavakoli, “An Experimental Study on Stability and Rheological Properties of Magnetorheological Fluid Using Iron Nanoparticle Core–Shell Structured by Cellulose,” <span class="venue">Journal of Thermal Analysis and Calorimetry</span>, 135, 1687–1697, 2019.
+  <li><strong>Y. Rabbani</strong>, N. Hajinajaf, O. Tavakoli, “An Experimental Study on Stability and Rheological Properties of Magnetorheological Fluid Using Iron Nanoparticle Core-Shell Structured by Cellulose,” <span class="venue">Journal of Thermal Analysis and Calorimetry</span>, 135, 1687-1697, 2019.
     <div class="pub-links"><a href="https://scholar.google.com/scholar?q=%22An%20Experimental%20Study%20on%20Stability%20and%20Rheological%20Properties%20of%20Magnetorheological%20Fluid%20Using%20Iron%20Nanoparticle%20Core%E2%80%93Shell%20Structured%20by%20Cellulose%22">Find paper</a></div>
   </li>
-  <li><strong>Y. Rabbani</strong>, M. Shirvani, S. H. Hashemabadi, M. Keshavarz, “Application of Artificial Neural Networks and Support Vector Regression Modeling in Prediction of Magnetorheological Fluid Rheometry,” <span class="venue">Colloids and Surfaces A</span>, 520, 268–278, 2017.
+  <li><strong>Y. Rabbani</strong>, M. Shirvani, S. H. Hashemabadi, M. Keshavarz, “Application of Artificial Neural Networks and Support Vector Regression Modeling in Prediction of Magnetorheological Fluid Rheometry,” <span class="venue">Colloids and Surfaces A</span>, 520, 268-278, 2017.
     <div class="pub-links"><a href="https://scholar.google.com/scholar?q=%22Application%20of%20Artificial%20Neural%20Networks%20and%20Support%20Vector%20Regression%20Modeling%20in%20Prediction%20of%20Magnetorheological%20Fluid%20Rheometry%22">Find paper</a></div>
   </li>
-  <li><strong>Y. Rabbani</strong>, M. Ashtiani, S. H. Hashemabadi, “An Experimental Study on the Effects of Temperature and Magnetic Field Strength on the Magnetorheological Fluid Stability and MR Effect,” <span class="venue">Soft Matter</span>, 11(22), 4453–4460, 2015.
+  <li><strong>Y. Rabbani</strong>, M. Ashtiani, S. H. Hashemabadi, “An Experimental Study on the Effects of Temperature and Magnetic Field Strength on the Magnetorheological Fluid Stability and MR Effect,” <span class="venue">Soft Matter</span>, 11(22), 4453-4460, 2015.
     <div class="pub-links"><a href="https://scholar.google.com/scholar?q=%22An%20Experimental%20Study%20on%20the%20Effects%20of%20Temperature%20and%20Magnetic%20Field%20Strength%20on%20the%20Magnetorheological%20Fluid%20Stability%20and%20MR%20Effect%22">Find paper</a></div>
   </li>
 </ol>
