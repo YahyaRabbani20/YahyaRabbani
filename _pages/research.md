@@ -8,7 +8,7 @@ excerpt: "Experimental nanobiotechnology and machine learning for DNA-nanotube o
 
 <section class="page-banner">
   <h1>Research</h1>
-  <p class="keywords">Nanobiotechnology<span>|</span>Machine learning<span>|</span>Optical sensing<span>|</span>High-throughput experimentation</p>
+  <p class="keywords">Chemical engineering<span>|</span>Machine learning<span>|</span>Experimental nanobiotechnology<span>|</span>Nanobiosensors</p>
 </section>
 
 <p class="statement">I design optical sensors made of <strong>carbon nanotubes wrapped in short DNA strands</strong> (ssDNA-SWCNTs). These sensors glow in the <strong>near-infrared</strong>, and the glow changes when a target molecule interacts with the DNA. The DNA sequence decides what the sensor responds to, and there are about 10<sup>18</sup> possible sequences, far too many to test in the lab. So I use <strong>sequence clustering</strong>, <strong>high-throughput screening</strong>, and <strong>deep learning</strong> to find the good ones. I have applied this approach to four very different targets.</p>
