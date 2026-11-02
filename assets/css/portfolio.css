@@ -122,3 +122,24 @@ body{padding-bottom:84px}
 @keyframes liUp{from{opacity:0;transform:translate(-50%,14px)}to{opacity:1;transform:translate(-50%,0)}}
 @media(max-width:560px){.li-float{font-size:14px;bottom:12px;gap:8px}.li-float .li-long{display:none}}
 @media(prefers-reduced-motion:reduce){.li-float{animation:none}}
+
+/* ===== Home v3: compact header + live slideshow hero ===== */
+.header{padding-top:16px;padding-bottom:16px}
+.hero.live{padding:26px 40px 36px;gap:40px;align-items:center}
+.hero.live .eyebrow{margin-bottom:12px}
+.hero.live h1{font-size:clamp(30px,3.5vw,48px);margin-bottom:16px}
+.hero.live .lead{font-size:18px;line-height:1.55;margin-bottom:10px}
+.hero.live .note{font-size:14px;margin:6px 0 0}
+.hero.live .buttons{margin-top:16px}
+.hero-show{width:100%}
+.hero-stage{position:relative;width:100%;aspect-ratio:1/0.9;max-height:62vh}
+.hero-stage .slide{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;opacity:0;transition:opacity .9s ease}
+.hero-stage .slide.is-active{opacity:1}
+.hero-cap{text-align:center;margin-top:10px;min-height:42px}
+.hero-cap-tag{display:block;font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--teal);margin-bottom:2px}
+.hero-cap-text{display:block;font-size:14px;color:var(--muted);line-height:1.4}
+.hero-dots{display:flex;justify-content:center;gap:8px;margin-top:10px}
+.hero-dots button{width:9px;height:9px;border-radius:5px;border:0;background:#c9d6d6;padding:0;cursor:pointer;transition:width .3s,background .3s}
+.hero-dots button[aria-selected="true"]{background:var(--teal);width:24px}
+@media(max-width:760px){.hero.live{padding:20px 20px 28px}.hero-stage{max-height:none}}
+@media(prefers-reduced-motion:reduce){.hero-stage .slide{transition:none}}
