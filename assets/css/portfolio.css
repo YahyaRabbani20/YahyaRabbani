@@ -143,3 +143,9 @@ body{padding-bottom:84px}
 .hero-dots button[aria-selected="true"]{background:var(--teal);width:24px}
 @media(max-width:760px){.hero.live{padding:20px 20px 28px}.hero-stage{max-height:none}}
 @media(prefers-reduced-motion:reduce){.hero-stage .slide{transition:none}}
+
+/* ===== Compact page banner ===== */
+.page-banner{padding:28px 40px 24px;margin-bottom:32px}
+.page-banner h1{font-size:clamp(26px,3vw,38px);margin:0 0 8px}
+.page-banner .keywords{font-size:14px}
+@media(max-width:760px){.page-banner{padding:22px 20px 20px;margin-bottom:24px}}
