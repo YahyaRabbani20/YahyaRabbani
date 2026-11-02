@@ -17,9 +17,8 @@ excerpt: "Publications, patents, and books by Yahya Rabbani on AI-guided nanobio
 <div class="pub-filter" role="group" aria-label="Filter publications by topic">
   <button type="button" data-filter="all" aria-pressed="true">All Papers</button>
   <button type="button" data-filter="ai-bio" aria-pressed="false">AI &amp; Biosensors</button>
-  <button type="button" data-filter="mr" aria-pressed="false">Magnetorheological Fluids</button>
   <button type="button" data-filter="surf" aria-pressed="false">Functional Materials</button>
-  <button type="button" data-filter="bio" aria-pressed="false">Experimental Design</button>
+  <button type="button" data-filter="bio" aria-pressed="false">AI &amp; Experimental Design</button>
 </div>
 <p class="pub-count" id="pub-count" aria-live="polite"></p>
 
@@ -123,7 +122,7 @@ excerpt: "Publications, patents, and books by Yahya Rabbani on AI-guided nanobio
     <a class="read-btn" href="https://doi.org/10.1101/2023.09.07.556334" target="_blank" rel="noopener">Read paper</a>
   </div>
 </article>
-<article class="pub-card" data-cat="mr">
+<article class="pub-card" data-cat="surf">
   <a class="pub-thumb ph" href="https://doi.org/10.1177/1045389X221147667" target="_blank" rel="noopener"><b>J. Intell. Mater. Syst. Struct.</b><span>2023</span></a>
   <div class="pub-meta">
     <p><span class="lbl">Title</span><span class="ttl">The effect of microparticles/nanoparticles surface modification on the magnetorheological fluid properties: a review</span> <span class="badge">Review</span></p>
@@ -186,7 +185,7 @@ excerpt: "Publications, patents, and books by Yahya Rabbani on AI-guided nanobio
     <a class="read-btn" href="https://doi.org/10.1016/j.ceramint.2021.06.257" target="_blank" rel="noopener">Read paper</a>
   </div>
 </article>
-<article class="pub-card" data-cat="mr">
+<article class="pub-card" data-cat="surf">
   <a class="pub-thumb" href="https://doi.org/10.2514/1.T5656" target="_blank" rel="noopener"><img src="https://arc.aiaa.org/cms/10.2514/1.T5656/asset/images/medium/figure10.gif" alt="" loading="lazy" referrerpolicy="no-referrer"></a>
   <div class="pub-meta">
     <p><span class="lbl">Title</span><span class="ttl">Investigation of the chain formation effect on thermal conductivity of magnetorheological fluids</span></p>
@@ -204,7 +203,7 @@ excerpt: "Publications, patents, and books by Yahya Rabbani on AI-guided nanobio
     
   </div>
 </article>
-<article class="pub-card" data-cat="mr">
+<article class="pub-card" data-cat="surf">
   <a class="pub-thumb" href="https://doi.org/10.1007/s10973-018-7538-7" target="_blank" rel="noopener"><img src="https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs10973-018-7538-7/MediaObjects/10973_2018_7538_Fig4_HTML.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></a>
   <div class="pub-meta">
     <p><span class="lbl">Title</span><span class="ttl">An experimental study on stability and rheological properties of magnetorheological fluid using iron nanoparticle core-shell structured by cellulose</span></p>
@@ -213,7 +212,7 @@ excerpt: "Publications, patents, and books by Yahya Rabbani on AI-guided nanobio
     <a class="read-btn" href="https://doi.org/10.1007/s10973-018-7538-7" target="_blank" rel="noopener">Read paper</a>
   </div>
 </article>
-<article class="pub-card" data-cat="mr">
+<article class="pub-card" data-cat="surf">
   <a class="pub-thumb" href="https://doi.org/10.1016/j.colsurfa.2017.01.081" target="_blank" rel="noopener"><img src="https://ars.els-cdn.com/content/image/1-s2.0-S0927775717301176-fx1.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"></a>
   <div class="pub-meta">
     <p><span class="lbl">Title</span><span class="ttl">Application of artificial neural networks and support vector regression modeling in prediction of magnetorheological fluid rheometry</span></p>
@@ -222,7 +221,7 @@ excerpt: "Publications, patents, and books by Yahya Rabbani on AI-guided nanobio
     <a class="read-btn" href="https://doi.org/10.1016/j.colsurfa.2017.01.081" target="_blank" rel="noopener">Read paper</a>
   </div>
 </article>
-<article class="pub-card" data-cat="mr">
+<article class="pub-card" data-cat="surf">
   <div class="pub-thumb ph"><b>Iranian Patent</b><span>2017</span></div>
   <div class="pub-meta">
     <p><span class="lbl">Title</span><span class="ttl">Sustainable magnetorheological fluid synthesis with proper rheological properties for industrial applications using nanoparticles and stabilizing additives</span> <span class="badge">Patent</span></p>
@@ -231,7 +230,7 @@ excerpt: "Publications, patents, and books by Yahya Rabbani on AI-guided nanobio
     
   </div>
 </article>
-<article class="pub-card" data-cat="mr">
+<article class="pub-card" data-cat="surf">
   <a class="pub-thumb ph" href="https://doi.org/10.1039/C5SM00625B" target="_blank" rel="noopener"><b>Soft Matter</b><span>2015</span></a>
   <div class="pub-meta">
     <p><span class="lbl">Title</span><span class="ttl">An experimental study on the effects of temperature and magnetic field strength on the magnetorheological fluid stability and MR effect</span></p>
