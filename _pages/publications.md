@@ -187,7 +187,7 @@ excerpt: "Publications, patents, and books by Yahya Rabbani on AI-guided nanobio
   </div>
 </article>
 <article class="pub-card" data-cat="mr">
-  <a class="pub-thumb ph" href="https://doi.org/10.2514/1.T5656" target="_blank" rel="noopener"><b>J. Thermophys. Heat Transfer</b><span>2020</span></a>
+  <a class="pub-thumb" href="https://doi.org/10.2514/1.T5656" target="_blank" rel="noopener"><img src="https://arc.aiaa.org/cms/10.2514/1.T5656/asset/images/medium/figure10.gif" alt="" loading="lazy" referrerpolicy="no-referrer"></a>
   <div class="pub-meta">
     <p><span class="lbl">Title</span><span class="ttl">Investigation of the chain formation effect on thermal conductivity of magnetorheological fluids</span></p>
     <p><span class="lbl">Authors</span><span class="auth">J. Maroofi, S. H. Hashemabadi, <strong>Y. Rabbani</strong></span></p>
