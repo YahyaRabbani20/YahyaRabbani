@@ -108,3 +108,17 @@ a.contact-card:hover{border-color:var(--teal);color:var(--ink)}
 .hero .note{margin-top:18px}
 .band .thrust:first-of-type{border-top:0;padding-top:24px}
 .step-media img{max-height:520px;width:auto;max-width:100%;margin:0 auto;object-fit:contain}
+
+/* ===== Floating LinkedIn bar (all pages) ===== */
+body{padding-bottom:84px}
+.li-float{position:fixed;left:50%;bottom:16px;transform:translateX(-50%);z-index:50;display:flex;align-items:center;gap:12px;background:#0d2a47;color:#fff;padding:7px 7px 7px 14px;border-radius:999px;box-shadow:0 8px 24px rgba(13,42,71,.28);font-size:15px;line-height:1.2;max-width:calc(100% - 24px);animation:liUp .45s ease-out both}
+.li-float svg{flex:none;width:20px;height:20px}
+.li-float .li-text{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.li-btn{flex:none;background:#0A66C2;color:#fff;text-decoration:none;font-weight:700;font-size:14px;padding:8px 16px;border-radius:999px}
+.li-btn:hover,.li-btn:focus-visible{background:#0b57a4;color:#fff}
+.li-close{flex:none;background:none;border:0;color:#9fb6c9;font-size:20px;line-height:1;cursor:pointer;padding:2px 6px}
+.li-close:hover{color:#fff}
+.li-float.hidden{display:none}
+@keyframes liUp{from{opacity:0;transform:translate(-50%,14px)}to{opacity:1;transform:translate(-50%,0)}}
+@media(max-width:560px){.li-float{font-size:14px;bottom:12px;gap:8px}.li-float .li-long{display:none}}
+@media(prefers-reduced-motion:reduce){.li-float{animation:none}}
