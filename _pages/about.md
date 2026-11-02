@@ -9,22 +9,66 @@ redirect_from:
   - /about.html
 ---
 
-<section class="hero">
+<section class="hero live">
   <div>
     <p class="eyebrow">AI-guided discovery platform</p>
-    <h1 style="font-size:clamp(34px,4.2vw,54px)">AI-Guided Design and Automated Experiments for <em>Novel Nanosensors</em></h1>
+    <h1>AI-Guided Design and Automated Experiments for <em>Novel Nanosensors</em></h1>
     <p class="lead">DNA-wrapped carbon nanotubes glow in the near-infrared, and their glow changes when a target molecule binds. The DNA sequence decides which molecule the sensor responds to, but a 30-base strand alone has about 10<sup>18</sup> possible sequences. This platform searches that space in a loop. It designs a small and diverse set of sequences, prepares and screens them in 384-well plates, measures their optical response automatically, and uses machine learning to pick what to test next. Each round of data improves the next round of predictions.</p>
     <p class="note">The same approach has been applied to glucose, the cancer protein OPG, nitric oxide, and the food toxin fumonisin B1. European patent application EP 24211885.9.</p>
     <div class="buttons">
       <a class="button primary" href="{{ '/research/' | relative_url }}">See the research</a>
-      <a class="button" href="{{ '/vision/' | relative_url }}">Research vision</a>
+      <a class="button" href="#platform">How it works</a>
     </div>
   </div>
-  <figure class="hero-figure">
-    <img src="{{ '/images/Image_H_All.png' | relative_url }}" alt="Discovery funnel narrowing a large pool of DNA sequences through a neural network to a few responsive sensors">
-    <figcaption>The discovery funnel. A very large pool of DNA sequences is narrowed down by experiments and machine learning to a few sensors with the right optical response.</figcaption>
-  </figure>
+  <div class="hero-show" id="hero-show" aria-label="Platform overview slideshow">
+    <div class="hero-stage">
+      <img class="slide is-active" src="{{ '/images/Image_H_All.png' | relative_url }}" alt="Discovery funnel narrowing a large pool of DNA sequences to a few responsive sensors" data-tag="Conceptual workflow" data-cap="A huge pool of DNA sequences is narrowed down to a few working sensors.">
+      <img class="slide" src="{{ '/images/Image_H_Design.png' | relative_url }}" alt="Sequence representations, clustering, and selection of diverse sequences" data-tag="Step 1 · Design" data-cap="Cluster the sequence space and pick a small, diverse set to test.">
+      <img class="slide" src="{{ '/images/Image_H_Prepare.png' | relative_url }}" alt="DNA exchange onto carbon nanotubes and robotic liquid handling into well plates" data-tag="Step 2 · Prepare" data-cap="Wrap the DNA onto nanotubes and fill 384-well plates, by hand or by robot.">
+      <img class="slide" src="{{ '/images/Image_H_Measure.png' | relative_url }}" alt="Near-infrared plate scanning and the Python processing pipeline" data-tag="Step 3 · Measure" data-cap="Scan every well in the near-infrared and extract each sensor’s response.">
+      <img class="slide" src="{{ '/images/Image_H_Learn.png' | relative_url }}" alt="Optical response data, pattern recognition, and ensemble learning" data-tag="Step 4 · Learn" data-cap="Train models on the results and choose the next sequences to test.">
+    </div>
+    <div class="hero-cap" aria-live="polite">
+      <span class="hero-cap-tag">Conceptual workflow</span>
+      <span class="hero-cap-text">A huge pool of DNA sequences is narrowed down to a few working sensors.</span>
+    </div>
+    <div class="hero-dots" role="tablist">
+      <button type="button" role="tab" aria-label="Conceptual workflow" aria-selected="true"></button>
+      <button type="button" role="tab" aria-label="Step 1 · Design" aria-selected="false"></button>
+      <button type="button" role="tab" aria-label="Step 2 · Prepare" aria-selected="false"></button>
+      <button type="button" role="tab" aria-label="Step 3 · Measure" aria-selected="false"></button>
+      <button type="button" role="tab" aria-label="Step 4 · Learn" aria-selected="false"></button>
+    </div>
+  </div>
 </section>
+
+<script>
+(function () {
+  var box = document.getElementById('hero-show');
+  if (!box) return;
+  var slides = Array.prototype.slice.call(box.querySelectorAll('.slide'));
+  var dots = Array.prototype.slice.call(box.querySelectorAll('.hero-dots button'));
+  var tag = box.querySelector('.hero-cap-tag');
+  var txt = box.querySelector('.hero-cap-text');
+  var i = 0, timer = null;
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function show(n) {
+    slides[i].classList.remove('is-active');
+    dots[i].setAttribute('aria-selected', 'false');
+    i = (n + slides.length) % slides.length;
+    slides[i].classList.add('is-active');
+    dots[i].setAttribute('aria-selected', 'true');
+    tag.textContent = slides[i].getAttribute('data-tag');
+    txt.textContent = slides[i].getAttribute('data-cap');
+  }
+  function stop() { if (timer) { clearInterval(timer); timer = null; } }
+  function start() { if (reduce) return; stop(); timer = setInterval(function () { show(i + 1); }, 4500); }
+  dots.forEach(function (d, k) { d.addEventListener('click', function () { show(k); start(); }); });
+  box.addEventListener('mouseenter', stop);
+  box.addEventListener('mouseleave', start);
+  start();
+})();
+</script>
 
 <section class="band" id="platform">
   <p class="eyebrow">How the platform works</p>
