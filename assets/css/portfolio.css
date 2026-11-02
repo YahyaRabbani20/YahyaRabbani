@@ -211,3 +211,16 @@ body{padding-bottom:84px}
 .cv-btn:hover{background:#1f6fa8}
 .cv-btn.is-off{background:#e6ecec;color:var(--muted)!important;cursor:default}
 @media(max-width:700px){.contact-grid.two{grid-template-columns:1fr}}
+
+/* Contact compact boxes */
+.contact-grid.two{gap:14px;margin-top:18px}
+.contact-grid.two .contact-card{padding:14px 18px}
+.contact-grid.two .contact-card svg{width:22px;height:22px;margin-bottom:4px}
+.contact-grid.two .contact-card .label{margin-bottom:3px}
+.contact-grid.two .contact-card .value{font-size:16px;margin:0}
+.contact-grid.two .contact-card .hint{margin-top:2px}
+.contact-grid.two .contact-lines{gap:2px}
+.contact-grid.two .contact-lines a{margin:0;line-height:1.5}
+.contact-grid.two .contact-row{padding:6px 0}
+.contact-grid.two .contact-row svg{margin-bottom:0}
+.contact-grid.two .cv-btn{height:36px;padding:0 18px;margin-top:8px;font-size:12px}
