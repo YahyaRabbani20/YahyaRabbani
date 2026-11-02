@@ -224,3 +224,9 @@ body{padding-bottom:84px}
 .contact-grid.two .contact-row{padding:6px 0}
 .contact-grid.two .contact-row svg{margin-bottom:0}
 .contact-grid.two .cv-btn{height:36px;padding:0 18px;margin-top:8px;font-size:12px}
+
+/* Contact photo */
+.contact-intro{display:grid;grid-template-columns:1fr 170px;gap:36px;align-items:center}
+.contact-intro .statement{margin:0}
+.contact-photo{width:170px;height:170px;border-radius:50%;object-fit:cover;object-position:center 30%;border:4px solid #fff;box-shadow:0 0 0 2px var(--line),0 8px 24px rgba(16,43,72,.12)}
+@media(max-width:700px){.contact-intro{grid-template-columns:1fr;gap:18px}.contact-photo{width:130px;height:130px;order:-1}}
