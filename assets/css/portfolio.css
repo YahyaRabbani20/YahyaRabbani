@@ -100,3 +100,11 @@ a.contact-card:hover{border-color:var(--teal);color:var(--ink)}
 .fig-row figcaption{font-size:14px;color:var(--muted);margin-top:10px;line-height:1.45}
 .fig-row figcaption b{color:var(--ink)}
 @media(max-width:760px){.fig-row{grid-template-columns:1fr}}
+
+/* ===== Home v2: platform hero + steps ===== */
+.hero-figure{margin:0}
+.hero-figure img{width:100%;height:auto;display:block}
+.hero-figure figcaption{font-size:14px;color:var(--muted);margin-top:12px;line-height:1.45;text-align:center}
+.hero .note{margin-top:18px}
+.band .thrust:first-of-type{border-top:0;padding-top:24px}
+.step-media img{max-height:520px;width:auto;max-width:100%;margin:0 auto;object-fit:contain}
