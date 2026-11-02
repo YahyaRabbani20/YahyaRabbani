@@ -7,7 +7,6 @@ excerpt: "Publications, patents, and books by Yahya Rabbani on AI-guided nanobio
 ---
 
 <section class="page-banner">
-  <p class="eyebrow">Yahya Rabbani / Publications</p>
   <h1>Publications</h1>
   <p class="keywords"><span>Chemical Engineering|</span>Machine learning<span>|</span>Experimental Nanobiotechnology <span>|</span>Nanobiosensors</p>
 </section>
