@@ -13,7 +13,7 @@ excerpt: "Get in touch with Yahya Rabbani about nanobiosensing, AI-guided materi
   <h1>Contact</h1>
 </section>
 
-<p class="statement">I welcome conversations about <strong>AI-guided materials discovery</strong>, <strong>optical nanobiosensors</strong>, <strong>high-throughput and autonomous experimentation</strong>, and interdisciplinary research collaboration. Email is the fastest way to reach me. Based in Minneapolis, Minnesota, USA.</p>
+<p class="statement">I am always happy to talk about <strong>AI-guided materials discovery</strong>, <strong>optical nanobiosensors</strong>, <strong>high-throughput and autonomous experimentation</strong>, or a possible research collaboration. Email is the fastest way to reach me. I am based in Minneapolis, Minnesota, USA.</p>
 
 <div class="contact-grid three">
   <div class="contact-card">
