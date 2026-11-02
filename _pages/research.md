@@ -7,7 +7,6 @@ excerpt: "Experimental nanobiotechnology and machine learning for DNA-nanotube o
 ---
 
 <section class="page-banner">
-  <p class="eyebrow">Yahya Rabbani / Research</p>
   <h1>Research</h1>
   <p class="keywords">Nanobiotechnology<span>|</span>Machine learning<span>|</span>Optical sensing<span>|</span>High-throughput experimentation</p>
 </section>
