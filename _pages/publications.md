@@ -15,11 +15,11 @@ excerpt: "Publications, patents, and books by Yahya Rabbani on AI-guided nanobio
 <p class="pub-intro">For my complete and up-to-date publication record, please see my <a href="https://scholar.google.com/citations?user=gk2vj4YAAAAJ&amp;hl=en" target="_blank" rel="noopener">Google Scholar page</a>.</p>
 
 <div class="pub-filter" role="group" aria-label="Filter publications by topic">
-  <button type="button" data-filter="all" aria-pressed="true">All papers</button>
-  <button type="button" data-filter="ai-bio" aria-pressed="false">AI &amp; biosensors</button>
-  <button type="button" data-filter="mr" aria-pressed="false">Magnetorheological fluids</button>
-  <button type="button" data-filter="surf" aria-pressed="false">Superhydrophobic &amp; separation materials</button>
-  <button type="button" data-filter="bio" aria-pressed="false">Bioprocess &amp; experimental design</button>
+  <button type="button" data-filter="all" aria-pressed="true">All Papers</button>
+  <button type="button" data-filter="ai-bio" aria-pressed="false">AI &amp; Biosensors</button>
+  <button type="button" data-filter="mr" aria-pressed="false">Magnetorheological Fluids</button>
+  <button type="button" data-filter="surf" aria-pressed="false">Functional Materials</button>
+  <button type="button" data-filter="bio" aria-pressed="false">Experimental Design</button>
 </div>
 <p class="pub-count" id="pub-count" aria-live="polite"></p>
 
