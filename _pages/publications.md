@@ -3,6 +3,7 @@ layout: portfolio
 title: "Publications"
 permalink: /publications/
 hide_title: true
+wide: true
 excerpt: "Publications, patents, and books by Yahya Rabbani on AI-guided nanobiosensors, magnetorheological fluids, functional materials, and bioprocess engineering."
 ---
 
