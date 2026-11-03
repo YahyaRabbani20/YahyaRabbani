@@ -21,6 +21,7 @@ excerpt: "Publications, patents, and books by Yahya Rabbani on AI-guided nanobio
   <button type="button" data-filter="bio" aria-pressed="false">AI, Modeling &amp; Experimental Design</button>
 </div>
 <p class="pub-count" id="pub-count" aria-live="polite"></p>
+<p class="pub-legend" style="text-align:center;font-size:13px;color:var(--muted);margin:4px auto 0;max-width:none">Next to each paper: the colorful ring shows citations (Dimensions) and the blue donut shows the Altmetric attention score. Click either for details.</p>
 
 <div id="pub-list">
 <article class="pub-card" data-cat="ai-bio">
