@@ -3,8 +3,64 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{ page.title }} | Yahya Rabbani</title>
-<meta name="description" content="{{ page.excerpt | default: site.description | escape }}">
+{% if page.home %}{% assign seo_title = "Yahya Rabbani, PhD | AI-Guided Nanosensors and Machine Learning" %}{% assign seo_desc = "Yahya Rabbani, PhD, is a chemical engineer and AI scientist (Postdoctoral Researcher, EPFL) who designs DNA-wrapped carbon nanotube biosensors using machine learning and automated experiments." %}{% else %}{% capture seo_title %}{{ page.title }} | Yahya Rabbani{% endcapture %}{% assign seo_desc = page.excerpt | default: site.description %}{% endif %}
+<title>{{ seo_title }}</title>
+<meta name="description" content="{{ seo_desc | strip_html | escape }}">
+<meta name="author" content="Yahya Rabbani">
+<meta property="og:type" content="{% if page.home %}profile{% else %}website{% endif %}">
+<meta property="og:site_name" content="Yahya Rabbani">
+<meta property="og:title" content="{{ seo_title | escape }}">
+<meta property="og:description" content="{{ seo_desc | strip_html | escape }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:image" content="{{ '/images/Image_H_All.png' | absolute_url }}">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="me" href="https://scholar.google.com/citations?user=gk2vj4YAAAAJ&amp;hl=en">
+<link rel="me" href="https://orcid.org/0000-0001-5992-9082">
+<link rel="me" href="https://www.linkedin.com/in/yahyarabbani/">
+<link rel="me" href="https://github.com/YahyaRabbani20">
+{% if page.home %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "{{ '/' | absolute_url }}#person",
+      "name": "Yahya Rabbani",
+      "honorificSuffix": "PhD",
+      "url": "{{ '/' | absolute_url }}",
+      "image": "{{ '/images/profil.jpg' | absolute_url }}",
+      "email": "mailto:yahyarabbani@gmail.com",
+      "jobTitle": "Postdoctoral Researcher",
+      "worksFor": {"@type": "CollegeOrUniversity", "name": "EPFL (École Polytechnique Fédérale de Lausanne)", "url": "https://www.epfl.ch"},
+      "alumniOf": [
+        {"@type": "CollegeOrUniversity", "name": "University of Tehran"},
+        {"@type": "CollegeOrUniversity", "name": "Iran University of Science and Technology"},
+        {"@type": "CollegeOrUniversity", "name": "EPFL"}
+      ],
+      "address": {"@type": "PostalAddress", "addressLocality": "Minneapolis", "addressRegion": "MN", "addressCountry": "US"},
+      "knowsAbout": ["Machine learning", "Deep learning", "Nanobiosensors", "Carbon nanotube optical sensors", "Nanobiotechnology", "High-throughput experimentation", "Chemical engineering", "Magnetorheological fluids"],
+      "identifier": {"@type": "PropertyValue", "propertyID": "ORCID", "value": "0000-0001-5992-9082"},
+      "sameAs": [
+        "https://orcid.org/0000-0001-5992-9082",
+        "https://scholar.google.com/citations?user=gk2vj4YAAAAJ&hl=en",
+        "https://www.linkedin.com/in/yahyarabbani/",
+        "https://github.com/YahyaRabbani20"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "{{ '/' | absolute_url }}#website",
+      "url": "{{ '/' | absolute_url }}",
+      "name": "Yahya Rabbani",
+      "inLanguage": "en",
+      "about": {"@id": "{{ '/' | absolute_url }}#person"},
+      "publisher": {"@id": "{{ '/' | absolute_url }}#person"}
+    }
+  ]
+}
+</script>
+{% endif %}
 <link rel="canonical" href="{{ page.url | absolute_url }}">
 <link rel="stylesheet" href="{{ '/assets/css/portfolio.css' | relative_url }}?v={{ site.time | date: '%s' }}">
   <!-- Visual refresh (Nov 2026). Delete the next line to go back to the previous look. -->
@@ -33,6 +89,7 @@
     <a href="mailto:yahyarabbani@gmail.com">Email</a> ·
     <a href="https://www.linkedin.com/in/yahyarabbani/">LinkedIn</a> ·
     <a href="https://scholar.google.com/citations?user=gk2vj4YAAAAJ&hl=en">Google Scholar</a> ·
+    <a href="https://orcid.org/0000-0001-5992-9082">ORCID</a> ·
     <a href="https://github.com/YahyaRabbani20">GitHub</a>
   </span>
 </footer>
