@@ -18,7 +18,7 @@ excerpt: "Publications, patents, and books by Yahya Rabbani on AI-guided nanobio
   <button type="button" data-filter="all" aria-pressed="true">All Papers</button>
   <button type="button" data-filter="ai-bio" aria-pressed="false">AI &amp; Biosensors</button>
   <button type="button" data-filter="surf" aria-pressed="false">Functional Materials</button>
-  <button type="button" data-filter="bio" aria-pressed="false">AI &amp; Experimental Design</button>
+  <button type="button" data-filter="bio" aria-pressed="false">AI, Modeling &amp; Experimental Design</button>
 </div>
 <p class="pub-count" id="pub-count" aria-live="polite"></p>
 
@@ -167,7 +167,7 @@ excerpt: "Publications, patents, and books by Yahya Rabbani on AI-guided nanobio
     <a class="read-btn" href="https://doi.org/10.1007/s13762-021-03760-x" target="_blank" rel="noopener">Read paper</a>
   </div>
 </article>
-<article class="pub-card" data-cat="surf bio">
+<article class="pub-card" data-cat="bio">
   <a class="pub-thumb ph" href="https://doi.org/10.1039/D1RA09334G" target="_blank" rel="noopener"><b>RSC Advances</b><span>2022</span></a>
   <div class="pub-meta">
     <p><span class="lbl">Title</span><span class="ttl">The optimization effect of different parameters on the super hydrophobicity of prickly-shaped carbonyl iron particles</span></p>
