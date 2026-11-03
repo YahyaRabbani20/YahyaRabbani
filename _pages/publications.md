@@ -45,7 +45,7 @@ excerpt: "Publications, patents, and books by Yahya Rabbani on AI-guided nanobio
   {% assign th = site.static_files | where: "path", "/images/hybridization.png" | first %}{% if th %}<div class="pub-thumb"><img src="{{ '/images/hybridization.png' | relative_url }}" alt="" loading="lazy"></div>{% else %}<div class="pub-thumb ph"><b>DNA on carbon nanotubes</b><span>In preparation</span></div>{% endif %}
   <div class="pub-meta">
     <p><span class="lbl">Title</span><span class="ttl">Machine learning engineering of ssDNA hybridization on the surface of SWCNTs</span> <span class="badge">In preparation</span></p>
-    <p><span class="lbl">Authors</span><span class="auth">B. Rousseau, <strong>Y. Rabbani</strong>, S. Behjati, S. H. Sajjadi, A. A. Boghossian</span></p>
+    <p><span class="lbl">Authors</span><span class="auth">B. Rousseau, <strong>Y. Rabbani</strong>, A. A. Boghossian</span></p>
     <p><span class="lbl">Status</span>Manuscript</p>
     
   </div>
@@ -168,7 +168,7 @@ excerpt: "Publications, patents, and books by Yahya Rabbani on AI-guided nanobio
   </div>
 </article>
 <article class="pub-card" data-cat="bio">
-  {% assign th = site.static_files | where: "path", "/images/rsc-adv-2022.png" | first %}{% if th %}<a class="pub-thumb" href="https://pubs.rsc.org/en/content/articlelanding/2022/ra/d1ra09334g" target="_blank" rel="noopener"><img src="{{ '/images/rsc-adv-2022.png' | relative_url }}" alt="" loading="lazy"></a>{% else %}<a class="pub-thumb ph" href="https://pubs.rsc.org/en/content/articlelanding/2022/ra/d1ra09334g" target="_blank" rel="noopener"><b>RSC Advances</b><span>2022</span></a>{% endif %}
+  <a class="pub-thumb" href="https://pubs.rsc.org/en/content/articlelanding/2022/ra/d1ra09334g" target="_blank" rel="noopener"><img src="{{ '/images/RSC_2022.png' | relative_url }}" alt="" loading="lazy"></a>
   <div class="pub-meta">
     <p><span class="lbl">Title</span><span class="ttl">The optimization effect of different parameters on the super hydrophobicity of prickly-shaped carbonyl iron particles</span></p>
     <p><span class="lbl">Authors</span><span class="auth"><strong>Y. Rabbani</strong>, M. Shariaty-Niassar, S. A. S. Ebrahimi</span></p>
@@ -185,8 +185,8 @@ excerpt: "Publications, patents, and books by Yahya Rabbani on AI-guided nanobio
     <a class="read-btn" href="https://www.sciencedirect.com/science/article/pii/S0272884221020174" target="_blank" rel="noopener">Read paper</a>
   </div>
 </article>
-<article class="pub-card" data-cat="surf">
-  <a class="pub-thumb" href="https://arc.aiaa.org/doi/10.2514/1.T5656" target="_blank" rel="noopener"><img src="https://arc.aiaa.org/cms/10.2514/1.T5656/asset/images/medium/figure11.gif" alt="" loading="lazy" referrerpolicy="no-referrer"></a>
+<article class="pub-card" data-cat="bio">
+  <a class="pub-thumb" href="https://arc.aiaa.org/doi/10.2514/1.T5656" target="_blank" rel="noopener"><img src="{{ '/images/JTHT_2020.png' | relative_url }}" alt="" loading="lazy"></a>
   <div class="pub-meta">
     <p><span class="lbl">Title</span><span class="ttl">Investigation of the chain formation effect on thermal conductivity of magnetorheological fluids</span></p>
     <p><span class="lbl">Authors</span><span class="auth">J. Maroofi, S. H. Hashemabadi, <strong>Y. Rabbani</strong></span></p>
@@ -231,7 +231,7 @@ excerpt: "Publications, patents, and books by Yahya Rabbani on AI-guided nanobio
   </div>
 </article>
 <article class="pub-card" data-cat="surf">
-  {% assign th = site.static_files | where: "path", "/images/soft-matter-2015.png" | first %}{% if th %}<a class="pub-thumb" href="https://pubs.rsc.org/en/content/articlelanding/2015/sm/c5sm00625b" target="_blank" rel="noopener"><img src="{{ '/images/soft-matter-2015.png' | relative_url }}" alt="" loading="lazy"></a>{% else %}<a class="pub-thumb ph" href="https://pubs.rsc.org/en/content/articlelanding/2015/sm/c5sm00625b" target="_blank" rel="noopener"><b>Soft Matter</b><span>2015</span></a>{% endif %}
+  <a class="pub-thumb" href="https://pubs.rsc.org/en/content/articlelanding/2015/sm/c5sm00625b" target="_blank" rel="noopener"><img src="{{ '/images/SoftMatter_2015.png' | relative_url }}" alt="" loading="lazy"></a>
   <div class="pub-meta">
     <p><span class="lbl">Title</span><span class="ttl">An experimental study on the effects of temperature and magnetic field strength on the magnetorheological fluid stability and MR effect</span></p>
     <p><span class="lbl">Authors</span><span class="auth"><strong>Y. Rabbani</strong>, M. Ashtiani, S. H. Hashemabadi</span></p>
