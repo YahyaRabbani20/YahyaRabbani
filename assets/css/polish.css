@@ -1,0 +1,187 @@
+/* =====================================================================
+   polish.css  |  Visual refresh layer (Nov 2026)
+   Loaded AFTER portfolio.css. To undo every change in this file,
+   remove the single <link ... polish.css> line in _layouts/portfolio.html
+   (or delete this file). A full backup of the previous design is in the
+   branch "backup-design-2026-11-02".
+   ===================================================================== */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+:root{
+  --ink:#0f2a46; --muted:#4f6476; --teal:#087f83; --teal-2:#0b9a9a;
+  --paper:#f5f7f6; --line:#dde5e5; --card:#ffffff;
+  --shadow-sm:0 1px 2px rgba(15,42,70,.05),0 2px 8px rgba(15,42,70,.05);
+  --shadow-md:0 2px 4px rgba(15,42,70,.05),0 12px 32px rgba(15,42,70,.09);
+  --radius:16px;
+}
+
+/* ---------- Typography ---------- */
+body{
+  font-family:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  font-size:17px; line-height:1.68; color:var(--ink);
+  -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
+  background:
+    radial-gradient(1200px 500px at 85% -10%, rgba(8,127,131,.07), transparent 60%),
+    var(--paper);
+  background-attachment:fixed;
+}
+h1,h2,h3{letter-spacing:-.025em; font-weight:700}
+h2{font-weight:700}
+::selection{background:#bfe5e2; color:var(--ink)}
+a{transition:color .2s ease}
+html{scroll-padding-top:96px}
+
+/* ---------- Header: full-width, sticky, frosted ---------- */
+.header{
+  max-width:none; position:sticky; top:0; z-index:60;
+  padding:16px max(40px, calc((100% - 1160px) / 2));
+  background:rgba(245,247,246,.82);
+  -webkit-backdrop-filter:saturate(160%) blur(12px);
+  backdrop-filter:saturate(160%) blur(12px);
+  border-bottom:1px solid rgba(15,42,70,.08);
+}
+.brand{letter-spacing:-.02em; font-weight:800}
+.brand span{color:var(--muted); letter-spacing:.04em; margin-top:2px}
+.header nav{gap:6px; align-items:center}
+.header nav a{
+  padding:8px 13px; border-radius:999px; font-weight:500; font-size:15px;
+  transition:background .2s ease,color .2s ease;
+}
+.header nav a:hover{background:rgba(8,127,131,.09); color:var(--ink)}
+.header nav a[aria-current="page"]{
+  background:var(--ink); color:#fff; text-decoration:none; border:0;
+  box-shadow:none;
+}
+.header nav a[aria-current="page"]::after{display:none}
+
+/* ---------- Page banner ---------- */
+.page-banner{
+  border-radius:0 0 24px 24px;
+  box-shadow:0 18px 40px -22px rgba(11,79,99,.55);
+  background:linear-gradient(120deg,#0d2a47 0%,#0b4f63 52%,#0a8c8c 100%);
+}
+.page-banner h1{letter-spacing:-.01em}
+.page-banner .keywords{max-width:none; opacity:.95}
+
+/* ---------- Buttons ---------- */
+.button{
+  border-radius:999px; padding:11px 22px; font-weight:600;
+  transition:transform .15s ease, box-shadow .2s ease, background .2s ease;
+}
+.button.primary{
+  background:linear-gradient(135deg,var(--ink),#0b4f63); border-color:transparent;
+  box-shadow:0 6px 18px -8px rgba(11,79,99,.7);
+}
+.button:hover{transform:translateY(-1px); box-shadow:var(--shadow-sm)}
+.button.primary:hover{color:#fff; background:linear-gradient(135deg,#0b4f63,var(--teal))}
+
+/* ---------- Home hero ---------- */
+.hero.live h1{letter-spacing:-.03em}
+.hero.live .lead{color:var(--muted)}
+.hero-show .hero-stage{
+  background:var(--card); border-radius:20px; box-shadow:var(--shadow-md);
+  padding:14px;
+}
+.hero-show .hero-stage .slide{inset:14px; width:calc(100% - 28px); height:calc(100% - 28px)}
+.hero-dots button{transition:width .3s ease, background .3s ease}
+
+/* ---------- Media: soft cards for figures ---------- */
+.thrust-media img,
+.fig-row img,
+.step-media img{
+  border-radius:14px; background:#fff; box-shadow:var(--shadow-sm);
+}
+.fig-row figure{
+  background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
+  padding:14px; box-shadow:var(--shadow-sm);
+}
+.fig-row img{box-shadow:none}
+
+/* ---------- Research studies as cards ---------- */
+.study{
+  background:var(--card); border:1px solid var(--line); border-radius:20px;
+  padding:40px 44px; margin:26px 0; box-shadow:var(--shadow-sm);
+}
+.study + .study{border-top:1px solid var(--line)}
+.study .tag{
+  background:#e4f3f1; padding:4px 10px; border-radius:999px; letter-spacing:.1em;
+}
+
+/* ---------- Home / Vision thrusts ---------- */
+.thrust{gap:56px}
+.thrust h2,.thrust h3{letter-spacing:-.025em}
+
+/* ---------- Statement intro text ---------- */
+.statement{color:var(--muted)}
+.statement strong{font-weight:600}
+
+/* ---------- Publications ---------- */
+.pub-filter button{transition:background .2s ease,color .2s ease,transform .15s ease}
+.pub-filter button:hover{transform:translateY(-1px)}
+.pub-card{
+  background:var(--card); border:1px solid var(--line); border-top:3px solid var(--ink);
+  border-radius:20px 20px 14px 14px; box-shadow:var(--shadow-sm);
+  transition:transform .2s ease, box-shadow .25s ease;
+}
+.pub-card:hover{transform:translateY(-3px); box-shadow:var(--shadow-md)}
+.pub-thumb{border-radius:12px}
+.pub-thumb img{border-radius:10px}
+.read-btn{background:linear-gradient(135deg,var(--ink),#0b4f63)}
+.read-btn:hover{background:linear-gradient(135deg,#0b4f63,var(--teal))}
+
+/* ---------- News ---------- */
+.news-year{border-bottom:2px solid var(--ink); letter-spacing:-.02em}
+.news-item{
+  padding:24px 20px; margin:0 -20px; border-bottom:1px solid var(--line);
+  border-radius:16px; transition:background .2s ease;
+}
+.news-item:hover{background:rgba(255,255,255,.75)}
+.news-pic{border-radius:14px; box-shadow:var(--shadow-sm); border-color:transparent}
+.news-tag{background:#e4f3f1; color:var(--teal); font-weight:700}
+
+/* ---------- Contact ---------- */
+.contact-card{
+  border-radius:var(--radius); box-shadow:var(--shadow-sm);
+  transition:transform .2s ease, box-shadow .25s ease, border-color .2s ease;
+}
+a.contact-card:hover,.contact-card:hover{transform:translateY(-2px); box-shadow:var(--shadow-md)}
+.contact-wrap .contact-photo{border-radius:18px; box-shadow:var(--shadow-md)}
+.cv-btn{background:linear-gradient(135deg,var(--ink),#0b4f63)}
+
+/* ---------- Footer: full-width dark band ---------- */
+footer{
+  max-width:none; margin-top:40px;
+  padding:30px max(40px, calc((100% - 1160px) / 2)) 110px;
+  background:var(--ink); color:#b9cdd4; border-top:0; font-size:14px;
+}
+footer a{color:#fff; text-decoration:none; border-bottom:1px solid rgba(255,255,255,.25)}
+footer a:hover{color:#9fe0d8; border-bottom-color:#9fe0d8}
+
+/* ---------- LinkedIn bar ---------- */
+.li-float{background:rgba(13,42,71,.92); -webkit-backdrop-filter:blur(8px); backdrop-filter:blur(8px)}
+
+/* ---------- Gentle reveal on scroll (modern browsers only, no JS) ---------- */
+@keyframes polishUp{from{opacity:0; transform:translateY(18px)} to{opacity:1; transform:none}}
+@supports (animation-timeline: view()){
+  @media (prefers-reduced-motion: no-preference){
+    .study,.thrust,.news-item,.fig-row figure{
+      animation:polishUp linear both;
+      animation-timeline:view();
+      animation-range:entry 0% entry 28%;
+    }
+  }
+}
+
+/* ---------- Mobile ---------- */
+@media (max-width:760px){
+  body{font-size:16px; background-attachment:scroll}
+  .header{position:static; padding:10px 16px 8px}
+  .header nav{gap:2px}
+  .header nav a{padding:7px 11px; font-size:14.5px}
+  .page-banner{border-radius:0 0 18px 18px}
+  .study{padding:26px 20px; border-radius:16px}
+  .news-item{margin:0; padding:20px 4px}
+  .hero-show .hero-stage{padding:8px; border-radius:16px}
+  .hero-show .hero-stage .slide{inset:8px; width:calc(100% - 16px); height:calc(100% - 16px)}
+  footer{padding:24px 20px 100px}
+}
