@@ -260,3 +260,11 @@ body{padding-bottom:84px}
 .hero.live .note{order:5;font-size:14px}
 .hero.live .buttons{order:6}
 }
+
+/* ===== Publication metrics: citations (Dimensions) + Altmetric, replaces numbered circle ===== */
+.pub-card::after{content:none!important;display:none!important}
+.pub-metrics{position:absolute;left:216px;bottom:28px;height:62px;display:flex;align-items:center;gap:12px}
+.pub-metrics .__dimensions_badge_embed__,.pub-metrics .altmetric-embed{display:inline-flex;align-items:center;line-height:0}
+.pub-metrics .altmetric-embed img{width:56px;height:56px}
+.pub-metrics .__dimensions_badge_embed__ a{line-height:0}
+@media(max-width:600px){.pub-metrics{left:180px;height:54px;bottom:30px}.pub-metrics .altmetric-embed img{width:50px;height:50px}}
