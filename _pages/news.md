@@ -84,7 +84,7 @@ excerpt: "News from Yahya Rabbani: papers, talks, patents, and students."
   </div>
 </article>
 <article class="news-item">
-  <div class="news-pic ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 9l10-5 10 5-10 5-10-5z"/><path d="M6 11v5c0 1.5 2.7 3 6 3s6-1.5 6-3v-5"/><path d="M22 9v6"/></svg></div>
+  <div class="news-pic photo"><img src="https://boghossian-lab.com/news/024_image20.png" alt="" loading="lazy"></div>
   <div class="news-body">
     <p class="news-date">November 17, 2024<span class="news-tag">Team</span></p>
     <h3>My master student Joey Bregy defends his thesis</h3>
@@ -98,6 +98,15 @@ excerpt: "News from Yahya Rabbani: papers, talks, patents, and students."
     <h3>European patent application filed by EPFL</h3>
     <p>EPFL files a European patent application (EP 24211885.9) for our invention on optimizing optical nano-biosensors made of single-walled carbon nanotubes wrapped in single-stranded DNA, for detecting molecules such as glucose and cancer biomarkers.</p>
     <a class="news-link" href="https://patents.google.com/patent/EP4742248A1/en" target="_blank" rel="noopener">See the patent →</a>
+  </div>
+</article>
+<article class="news-item">
+  {% assign poc_img = site.static_files | where: "path", "/images/news-poc-2024.jpg" | first %}
+  {% if poc_img %}<div class="news-pic photo"><img src="{{ '/images/news-poc-2024.jpg' | relative_url }}" alt="Yahya Rabbani with his poster at the Swiss Symposium in Point-of-Care Diagnostics 2024" loading="lazy"></div>{% else %}<div class="news-pic"><img src="{{ '/images/Image_P4a.png' | relative_url }}" alt="" loading="lazy"></div>{% endif %}
+  <div class="news-body">
+    <p class="news-date">October 2024<span class="news-tag">Poster</span></p>
+    <h3>Poster at the Swiss Symposium in Point-of-Care Diagnostics 2024</h3>
+    <p>I present my poster on engineering nano optical biosensors with the aid of machine learning at the Swiss Symposium in Point-of-Care Diagnostics 2024 at Technopark Zurich. It was a pleasure to discuss future applications of optical sensors and machine learning in digital health with researchers and industry partners.</p>
   </div>
 </article>
 <article class="news-item">
@@ -121,7 +130,7 @@ excerpt: "News from Yahya Rabbani: papers, talks, patents, and students."
 <section class="news-year-group">
 <h2 class="news-year">2023</h2>
 <article class="news-item">
-  <div class="news-pic ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 9l10-5 10 5-10 5-10-5z"/><path d="M6 11v5c0 1.5 2.7 3 6 3s6-1.5 6-3v-5"/><path d="M22 9v6"/></svg></div>
+  <div class="news-pic photo"><img src="https://boghossian-lab.com/news/080_image68.png" alt="" loading="lazy"></div>
   <div class="news-body">
     <p class="news-date">December 15, 2023<span class="news-tag">Team</span></p>
     <h3>My master student Lou de Benedittis defends her project</h3>
@@ -129,7 +138,7 @@ excerpt: "News from Yahya Rabbani: papers, talks, patents, and students."
   </div>
 </article>
 <article class="news-item">
-  <div class="news-pic ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 9l10-5 10 5-10 5-10-5z"/><path d="M6 11v5c0 1.5 2.7 3 6 3s6-1.5 6-3v-5"/><path d="M22 9v6"/></svg></div>
+  <div class="news-pic photo"><img src="https://boghossian-lab.com/news/080_image68.png" alt="" loading="lazy"></div>
   <div class="news-body">
     <p class="news-date">October 17, 2023<span class="news-tag">Team</span></p>
     <h3>My master student Lou de Benedittis joins the lab</h3>
@@ -210,7 +219,7 @@ excerpt: "News from Yahya Rabbani: papers, talks, patents, and students."
 <section class="news-year-group">
 <h2 class="news-year">2021</h2>
 <article class="news-item">
-  <div class="news-pic ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18"/><path d="M5 21V8l7-5 7 5v13"/><path d="M9 21v-6h6v6"/></svg></div>
+  <div class="news-pic photo"><img src="https://boghossian-lab.com/news/154_image121.png" alt="" loading="lazy"></div>
   <div class="news-body">
     <p class="news-date">September 10, 2021<span class="news-tag">Career</span></p>
     <h3>Joining the Boghossian Lab at EPFL</h3>
