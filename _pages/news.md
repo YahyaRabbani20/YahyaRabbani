@@ -138,14 +138,6 @@ excerpt: "News from Yahya Rabbani: papers, talks, patents, and students."
   </div>
 </article>
 <article class="news-item">
-  <div class="news-pic photo"><img src="https://boghossian-lab.com/news/080_image68.png" alt="" loading="lazy"></div>
-  <div class="news-body">
-    <p class="news-date">October 17, 2023<span class="news-tag">Team</span></p>
-    <h3>My master student Lou de Benedittis joins the lab</h3>
-    <p>Lou de Benedittis, a master student in Biotechnology at EPFL, joins the lab for a semester project with me, exploring the selectivity and sensitivity of DNA-wrapped nanotube sensors. Lou is also a co-author of our glucose sensor preprint. Welcome, Lou!</p>
-  </div>
-</article>
-<article class="news-item">
   <div class="news-pic ph"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="7" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><circle cx="17.5" cy="8.5" r="2.5"/><path d="M16 14.2a5 5 0 0 1 6 4.8"/></svg></div>
   <div class="news-body">
     <p class="news-date">October 2023<span class="news-tag">Service</span></p>
