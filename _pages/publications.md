@@ -42,7 +42,7 @@ excerpt: "Publications, patents, and books by Yahya Rabbani on AI-guided nanobio
   </div>
 </article>
 <article class="pub-card" data-cat="ai-bio">
-  {% assign th = site.static_files | where: "path", "/images/pubs/hybridization.png" | first %}{% if th %}<div class="pub-thumb"><img src="{{ '/images/pubs/hybridization.png' | relative_url }}" alt="" loading="lazy"></div>{% else %}<div class="pub-thumb ph"><b>DNA on carbon nanotubes</b><span>In preparation</span></div>{% endif %}
+  {% assign th = site.static_files | where: "path", "/images/hybridization.png" | first %}{% if th %}<div class="pub-thumb"><img src="{{ '/images/hybridization.png' | relative_url }}" alt="" loading="lazy"></div>{% else %}<div class="pub-thumb ph"><b>DNA on carbon nanotubes</b><span>In preparation</span></div>{% endif %}
   <div class="pub-meta">
     <p><span class="lbl">Title</span><span class="ttl">Machine learning engineering of ssDNA hybridization on the surface of SWCNTs</span> <span class="badge">In preparation</span></p>
     <p><span class="lbl">Authors</span><span class="auth">B. Rousseau, <strong>Y. Rabbani</strong>, S. Behjati, S. H. Sajjadi, A. A. Boghossian</span></p>
@@ -69,7 +69,7 @@ excerpt: "Publications, patents, and books by Yahya Rabbani on AI-guided nanobio
   </div>
 </article>
 <article class="pub-card" data-cat="ai-bio">
-  {% assign th = site.static_files | where: "path", "/images/pubs/ecs-2025.png" | first %}{% if th %}<a class="pub-thumb" href="https://iopscience.iop.org/article/10.1149/2.F15254IF" target="_blank" rel="noopener"><img src="{{ '/images/pubs/ecs-2025.png' | relative_url }}" alt="" loading="lazy"></a>{% else %}<a class="pub-thumb ph" href="https://iopscience.iop.org/article/10.1149/2.F15254IF" target="_blank" rel="noopener"><b>ECS Interface</b><span>2025</span></a>{% endif %}
+  {% assign th = site.static_files | where: "path", "/images/ecs-2025.png" | first %}{% if th %}<a class="pub-thumb" href="https://iopscience.iop.org/article/10.1149/2.F15254IF" target="_blank" rel="noopener"><img src="{{ '/images/ecs-2025.png' | relative_url }}" alt="" loading="lazy"></a>{% else %}<a class="pub-thumb ph" href="https://iopscience.iop.org/article/10.1149/2.F15254IF" target="_blank" rel="noopener"><b>ECS Interface</b><span>2025</span></a>{% endif %}
   <div class="pub-meta">
     <p><span class="lbl">Title</span><span class="ttl">Advancements in the surface functionalization of carbon nanotubes for optoelectronic modulation and sensing applications</span> <span class="badge">Featured article</span></p>
     <p><span class="lbl">Authors</span><span class="auth"><strong>Y. Rabbani</strong>, A. A. Boghossian</span></p>
@@ -78,7 +78,7 @@ excerpt: "Publications, patents, and books by Yahya Rabbani on AI-guided nanobio
   </div>
 </article>
 <article class="pub-card" data-cat="ai-bio">
-  {% assign th = site.static_files | where: "path", "/images/pubs/glutathione.png" | first %}{% if th %}<div class="pub-thumb"><img src="{{ '/images/pubs/glutathione.png' | relative_url }}" alt="" loading="lazy"></div>{% else %}<div class="pub-thumb ph"><b>Small Methods</b><span>2025</span></div>{% endif %}
+  {% assign th = site.static_files | where: "path", "/images/glutathione.png" | first %}{% if th %}<div class="pub-thumb"><img src="{{ '/images/glutathione.png' | relative_url }}" alt="" loading="lazy"></div>{% else %}<div class="pub-thumb ph"><b>Small Methods</b><span>2025</span></div>{% endif %}
   <div class="pub-meta">
     <p><span class="lbl">Title</span><span class="ttl">Enabling pH resilience of an optical glutathione sensor by distinguishing enthalpy- and entropy-driven interactions</span> <span class="badge">Under review</span></p>
     <p><span class="lbl">Authors</span><span class="auth">S. Behjati, L. Huang, B. Rousseau, <strong>Y. Rabbani</strong>, H. Wang, S. Dehury, R. Di Costanzo, S. H. Sajjadi, D. Constam, A. A. Boghossian</span></p>
@@ -87,7 +87,7 @@ excerpt: "Publications, patents, and books by Yahya Rabbani on AI-guided nanobio
   </div>
 </article>
 <article class="pub-card" data-cat="ai-bio">
-  {% assign th = site.static_files | where: "path", "/images/pubs/handbook.png" | first %}{% if th %}<a class="pub-thumb" href="https://www.worldscientific.com/worldscibooks/10.1142/14067" target="_blank" rel="noopener"><img src="{{ '/images/pubs/handbook.png' | relative_url }}" alt="" loading="lazy"></a>{% else %}<a class="pub-thumb ph" href="https://www.worldscientific.com/worldscibooks/10.1142/14067" target="_blank" rel="noopener"><b>Handbook of Carbon Nanomaterials</b><span>2025</span></a>{% endif %}
+  {% assign th = site.static_files | where: "path", "/images/handbook.png" | first %}{% if th %}<a class="pub-thumb" href="https://www.worldscientific.com/worldscibooks/10.1142/14067" target="_blank" rel="noopener"><img src="{{ '/images/handbook.png' | relative_url }}" alt="" loading="lazy"></a>{% else %}<a class="pub-thumb ph" href="https://www.worldscientific.com/worldscibooks/10.1142/14067" target="_blank" rel="noopener"><b>Handbook of Carbon Nanomaterials</b><span>2025</span></a>{% endif %}
   <div class="pub-meta">
     <p><span class="lbl">Title</span><span class="ttl">Bioengineering DNA for carbon nanotube sensors</span> <span class="badge">Book chapter</span></p>
     <p><span class="lbl">Authors</span><span class="auth">S. Behjati, <strong>Y. Rabbani</strong>, A. A. Boghossian</span></p>
@@ -105,7 +105,7 @@ excerpt: "Publications, patents, and books by Yahya Rabbani on AI-guided nanobio
   </div>
 </article>
 <article class="pub-card" data-cat="ai-bio">
-  {% assign th = site.static_files | where: "path", "/images/pubs/bioconj-2024.png" | first %}{% if th %}<a class="pub-thumb" href="https://pubs.acs.org/doi/10.1021/acs.bioconjchem.3c00388" target="_blank" rel="noopener"><img src="{{ '/images/pubs/bioconj-2024.png' | relative_url }}" alt="" loading="lazy"></a>{% else %}<a class="pub-thumb ph" href="https://pubs.acs.org/doi/10.1021/acs.bioconjchem.3c00388" target="_blank" rel="noopener"><b>Bioconjugate Chemistry</b><span>2024</span></a>{% endif %}
+  {% assign th = site.static_files | where: "path", "/images/bioconj-2024.png" | first %}{% if th %}<a class="pub-thumb" href="https://pubs.acs.org/doi/10.1021/acs.bioconjchem.3c00388" target="_blank" rel="noopener"><img src="{{ '/images/bioconj-2024.png' | relative_url }}" alt="" loading="lazy"></a>{% else %}<a class="pub-thumb ph" href="https://pubs.acs.org/doi/10.1021/acs.bioconjchem.3c00388" target="_blank" rel="noopener"><b>Bioconjugate Chemistry</b><span>2024</span></a>{% endif %}
   <div class="pub-meta">
     <p><span class="lbl">Title</span><span class="ttl">Micropreparative gel electrophoresis for purification of nanoscale bioconjugates</span></p>
     <p><span class="lbl">Authors</span><span class="auth">S. H. Sajjadi, S. J. Wu, <strong>Y. Rabbani</strong>, V. Zubkovs, H. Ahmadzadeh, et al.</span></p>
@@ -123,7 +123,7 @@ excerpt: "Publications, patents, and books by Yahya Rabbani on AI-guided nanobio
   </div>
 </article>
 <article class="pub-card" data-cat="surf">
-  {% assign th = site.static_files | where: "path", "/images/pubs/jimss-2023.png" | first %}{% if th %}<a class="pub-thumb" href="https://journals.sagepub.com/doi/10.1177/1045389X221147667" target="_blank" rel="noopener"><img src="{{ '/images/pubs/jimss-2023.png' | relative_url }}" alt="" loading="lazy"></a>{% else %}<a class="pub-thumb ph" href="https://journals.sagepub.com/doi/10.1177/1045389X221147667" target="_blank" rel="noopener"><b>J. Intell. Mater. Syst. Struct.</b><span>2023</span></a>{% endif %}
+  {% assign th = site.static_files | where: "path", "/images/jimss-2023.png" | first %}{% if th %}<a class="pub-thumb" href="https://journals.sagepub.com/doi/10.1177/1045389X221147667" target="_blank" rel="noopener"><img src="{{ '/images/jimss-2023.png' | relative_url }}" alt="" loading="lazy"></a>{% else %}<a class="pub-thumb ph" href="https://journals.sagepub.com/doi/10.1177/1045389X221147667" target="_blank" rel="noopener"><b>J. Intell. Mater. Syst. Struct.</b><span>2023</span></a>{% endif %}
   <div class="pub-meta">
     <p><span class="lbl">Title</span><span class="ttl">The effect of microparticles/nanoparticles surface modification on the magnetorheological fluid properties: a review</span> <span class="badge">Review</span></p>
     <p><span class="lbl">Authors</span><span class="auth"><strong>Y. Rabbani</strong>, N. Hajinajaf, M. Shariaty-Niassar</span></p>
@@ -168,7 +168,7 @@ excerpt: "Publications, patents, and books by Yahya Rabbani on AI-guided nanobio
   </div>
 </article>
 <article class="pub-card" data-cat="bio">
-  {% assign th = site.static_files | where: "path", "/images/pubs/rsc-adv-2022.png" | first %}{% if th %}<a class="pub-thumb" href="https://pubs.rsc.org/en/content/articlelanding/2022/ra/d1ra09334g" target="_blank" rel="noopener"><img src="{{ '/images/pubs/rsc-adv-2022.png' | relative_url }}" alt="" loading="lazy"></a>{% else %}<a class="pub-thumb ph" href="https://pubs.rsc.org/en/content/articlelanding/2022/ra/d1ra09334g" target="_blank" rel="noopener"><b>RSC Advances</b><span>2022</span></a>{% endif %}
+  {% assign th = site.static_files | where: "path", "/images/rsc-adv-2022.png" | first %}{% if th %}<a class="pub-thumb" href="https://pubs.rsc.org/en/content/articlelanding/2022/ra/d1ra09334g" target="_blank" rel="noopener"><img src="{{ '/images/rsc-adv-2022.png' | relative_url }}" alt="" loading="lazy"></a>{% else %}<a class="pub-thumb ph" href="https://pubs.rsc.org/en/content/articlelanding/2022/ra/d1ra09334g" target="_blank" rel="noopener"><b>RSC Advances</b><span>2022</span></a>{% endif %}
   <div class="pub-meta">
     <p><span class="lbl">Title</span><span class="ttl">The optimization effect of different parameters on the super hydrophobicity of prickly-shaped carbonyl iron particles</span></p>
     <p><span class="lbl">Authors</span><span class="auth"><strong>Y. Rabbani</strong>, M. Shariaty-Niassar, S. A. S. Ebrahimi</span></p>
@@ -195,7 +195,7 @@ excerpt: "Publications, patents, and books by Yahya Rabbani on AI-guided nanobio
   </div>
 </article>
 <article class="pub-card" data-cat="bio">
-  {% assign th = site.static_files | where: "path", "/images/pubs/book.png" | first %}{% if th %}<div class="pub-thumb"><img src="{{ '/images/pubs/book.png' | relative_url }}" alt="" loading="lazy"></div>{% else %}<div class="pub-thumb ph"><b>Process Optimization</b><span>2020</span></div>{% endif %}
+  {% assign th = site.static_files | where: "path", "/images/book.png" | first %}{% if th %}<div class="pub-thumb"><img src="{{ '/images/book.png' | relative_url }}" alt="" loading="lazy"></div>{% else %}<div class="pub-thumb ph"><b>Process Optimization</b><span>2020</span></div>{% endif %}
   <div class="pub-meta">
     <p><span class="lbl">Title</span><span class="ttl">Process optimization in chemical engineering</span> <span class="badge">Book</span></p>
     <p><span class="lbl">Authors</span><span class="auth"><strong>Y. Rabbani</strong>, S. M. Sadeghi</span></p>
@@ -222,7 +222,7 @@ excerpt: "Publications, patents, and books by Yahya Rabbani on AI-guided nanobio
   </div>
 </article>
 <article class="pub-card" data-cat="surf">
-  {% assign th = site.static_files | where: "path", "/images/pubs/iran-patent.png" | first %}{% if th %}<div class="pub-thumb"><img src="{{ '/images/pubs/iran-patent.png' | relative_url }}" alt="" loading="lazy"></div>{% else %}<div class="pub-thumb ph"><b>Iranian Patent</b><span>2017</span></div>{% endif %}
+  {% assign th = site.static_files | where: "path", "/images/iran-patent.png" | first %}{% if th %}<div class="pub-thumb"><img src="{{ '/images/iran-patent.png' | relative_url }}" alt="" loading="lazy"></div>{% else %}<div class="pub-thumb ph"><b>Iranian Patent</b><span>2017</span></div>{% endif %}
   <div class="pub-meta">
     <p><span class="lbl">Title</span><span class="ttl">Sustainable magnetorheological fluid synthesis with proper rheological properties for industrial applications using nanoparticles and stabilizing additives</span> <span class="badge">Patent</span></p>
     <p><span class="lbl">Authors</span><span class="auth"><strong>Y. Rabbani</strong> (80%), A. Hamta</span></p>
@@ -231,7 +231,7 @@ excerpt: "Publications, patents, and books by Yahya Rabbani on AI-guided nanobio
   </div>
 </article>
 <article class="pub-card" data-cat="surf">
-  {% assign th = site.static_files | where: "path", "/images/pubs/soft-matter-2015.png" | first %}{% if th %}<a class="pub-thumb" href="https://pubs.rsc.org/en/content/articlelanding/2015/sm/c5sm00625b" target="_blank" rel="noopener"><img src="{{ '/images/pubs/soft-matter-2015.png' | relative_url }}" alt="" loading="lazy"></a>{% else %}<a class="pub-thumb ph" href="https://pubs.rsc.org/en/content/articlelanding/2015/sm/c5sm00625b" target="_blank" rel="noopener"><b>Soft Matter</b><span>2015</span></a>{% endif %}
+  {% assign th = site.static_files | where: "path", "/images/soft-matter-2015.png" | first %}{% if th %}<a class="pub-thumb" href="https://pubs.rsc.org/en/content/articlelanding/2015/sm/c5sm00625b" target="_blank" rel="noopener"><img src="{{ '/images/soft-matter-2015.png' | relative_url }}" alt="" loading="lazy"></a>{% else %}<a class="pub-thumb ph" href="https://pubs.rsc.org/en/content/articlelanding/2015/sm/c5sm00625b" target="_blank" rel="noopener"><b>Soft Matter</b><span>2015</span></a>{% endif %}
   <div class="pub-meta">
     <p><span class="lbl">Title</span><span class="ttl">An experimental study on the effects of temperature and magnetic field strength on the magnetorheological fluid stability and MR effect</span></p>
     <p><span class="lbl">Authors</span><span class="auth"><strong>Y. Rabbani</strong>, M. Ashtiani, S. H. Hashemabadi</span></p>
