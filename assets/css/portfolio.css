@@ -241,3 +241,22 @@ body{padding-bottom:84px}
 /* Contact photo: square, uncropped */
 .contact-wrap .contact-photo{width:280px;height:auto;border-radius:10px;object-fit:contain;border:0;box-shadow:0 8px 24px rgba(16,43,72,.12)}
 @media(max-width:900px){.contact-wrap .contact-photo{width:200px;height:auto}}
+
+/* ===== Mobile home: title, then live slideshow, then text ===== */
+@media(max-width:760px){
+.header{padding:10px 16px 8px!important;gap:4px!important;flex-wrap:wrap}
+.header .brand{font-size:19px}
+.header .brand span{font-size:11px;margin-top:2px}
+.header nav{display:flex;flex-wrap:nowrap!important;overflow-x:auto;-webkit-overflow-scrolling:touch;gap:18px!important;width:100%;padding:6px 0 4px;scrollbar-width:none}
+.header nav::-webkit-scrollbar{display:none}
+.header nav a{white-space:nowrap;font-size:15px;flex:0 0 auto}
+.hero.live{display:flex!important;flex-direction:column;padding:16px 18px 28px!important;gap:0!important}
+.hero.live>div:first-child{display:contents}
+.hero.live .eyebrow{order:1;margin:0 0 6px;font-size:11px;text-align:left}
+.hero.live h1{order:2;font-size:27px!important;line-height:1.15;margin:0 0 14px}
+.hero.live #hero-show{order:3;margin:0 0 16px;width:100%}
+.hero.live .hero-stage{aspect-ratio:1/0.82;max-height:none;width:100%}
+.hero.live .lead{order:4;font-size:16px!important;line-height:1.6}
+.hero.live .note{order:5;font-size:14px}
+.hero.live .buttons{order:6}
+}
