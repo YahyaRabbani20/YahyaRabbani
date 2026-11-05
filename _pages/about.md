@@ -9,6 +9,24 @@ redirect_from:
   - /about.html
 ---
 
+<!-- AIChE 2026 talk banner: hides itself automatically after Nov 12, 2026. Delete this block to remove it. -->
+<style>
+.talk-banner{max-width:1160px;margin:14px auto 0;padding:0 40px}
+.talk-banner a{display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:10px 18px;border-radius:999px;background:linear-gradient(135deg,#0f2a46,#0b4f63);color:#fff;text-decoration:none;font-size:15px;box-shadow:0 6px 18px -10px rgba(11,79,99,.8);transition:transform .15s ease}
+.talk-banner a:hover{transform:translateY(-1px);color:#fff}
+.talk-banner .tb-tag{background:#9fe0d8;color:#0f2a46;font-weight:700;font-size:12px;letter-spacing:.06em;text-transform:uppercase;padding:3px 10px;border-radius:999px}
+.talk-banner .tb-cta{margin-left:auto;font-weight:700;white-space:nowrap}
+@media(max-width:760px){.talk-banner{padding:0 16px;margin-top:10px}.talk-banner a{border-radius:16px;font-size:14px;gap:8px}.talk-banner .tb-cta{margin-left:0}}
+</style>
+<div class="talk-banner" id="talk-banner">
+  <a href="https://www.linkedin.com/feed/update/urn:li:activity:7524168829439258624/" target="_blank" rel="noopener">
+    <span class="tb-tag">AIChE 2026</span>
+    <span>I'm presenting a poster and three talks in Minneapolis, Nov 8 to 11. Let's connect!</span>
+    <span class="tb-cta">See my talk schedule on LinkedIn →</span>
+  </a>
+</div>
+<script>(function(){try{if(new Date()>new Date('2026-11-13T00:00:00-06:00')){var b=document.getElementById('talk-banner');if(b)b.style.display='none';}}catch(e){}})();</script>
+
 <section class="hero live">
   <div>
     <p class="eyebrow">AI-guided discovery platform</p>
