@@ -31,8 +31,8 @@ redirect_from:
   <div>
     <p class="eyebrow">AI-guided discovery platform</p>
     <h1>AI-Guided Design and Automated Experiments for <em>Novel Nanosensors</em></h1>
-    <p class="lead">DNA-wrapped carbon nanotubes glow in the near-infrared, and their glow changes when a target molecule binds. The DNA sequence decides which molecule the sensor responds to, but a 30-base strand alone has about 10<sup>18</sup> possible sequences. This platform searches that space in a loop. It designs a small and diverse set of sequences, prepares and screens them in 384-well plates, measures their optical response automatically, and uses machine learning to pick what to test next. Each round of data improves the next round of predictions.</p>
-    <p class="note">The same approach has been applied to glucose, the cancer protein OPG, nitric oxide, and the food toxin fumonisin B1. European patent application EP 24211885.9.</p>
+    <p class="lead">DNA-wrapped carbon nanotubes glow in the near-infrared, and their glow changes when a target molecule interacts with the DNA. The DNA sequence decides which molecule the sensor responds to, but a 30-base strand alone has about 10<sup>18</sup> possible sequences. This platform searches that space in a loop. It designs a small and diverse set of sequences, prepares and screens them in 384-well plates, measures their optical response automatically, and uses machine learning to pick what to test next. Each round of data improves the next round of predictions.</p>
+    <p class="note">Building on earlier machine learning work on the food toxin fumonisin B1, the platform has been applied to glucose, the cancer protein OPG, and nitric oxide, with up to 10-fold brighter responses and up to 3-fold larger peak shifts than unguided approaches. European patent EP 4742248 A1.</p>
     <div class="buttons">
       <a class="button primary" href="{{ '/research/' | relative_url }}">See the research</a>
       <a class="button" href="#platform">How it works</a>
@@ -122,7 +122,7 @@ redirect_from:
       <span class="tag">Step 3 · Measure</span>
       <h3>Automated near-infrared plate scanning</h3>
       <p>A custom near-infrared microscope excites each well at 655 and 735 nm and records the fluorescence with an InGaAs detector, while a LabVIEW program moves through the plate.</p>
-      <p>A Python pipeline then cleans each spectrum, fits the peak of each nanotube type, and extracts the change in brightness and peak position. This gives one response value for every sequence and nanotube type.</p>
+      <p>A Python pipeline then cleans each spectrum, fits the peak of each nanotube type, and extracts the change in brightness and peak position. This gives a brightness change and a peak shift for every sequence and nanotube type.</p>
     </div>
   </div>
   <div class="thrust reverse">
