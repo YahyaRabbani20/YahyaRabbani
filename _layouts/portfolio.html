@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-{% if page.home %}{% assign seo_title = "Yahya Rabbani, PhD | AI-Guided Nanosensors and Machine Learning" %}{% assign seo_desc = "Yahya Rabbani, PhD, is a chemical engineer and AI scientist (Postdoctoral Researcher, EPFL) who designs DNA-wrapped carbon nanotube biosensors using machine learning and automated experiments." %}{% else %}{% capture seo_title %}{{ page.title }} | Yahya Rabbani{% endcapture %}{% assign seo_desc = page.excerpt | default: site.description %}{% endif %}
+{% if page.home %}{% assign seo_title = "Yahya Rabbani, PhD: AI-Guided Nanosensors and Machine Learning" %}{% assign seo_desc = "Yahya Rabbani, PhD, is a chemical engineer and AI scientist (Postdoctoral Researcher, EPFL) who designs DNA-wrapped carbon nanotube biosensors using machine learning and automated experiments." %}{% else %}{% capture seo_title %}{{ page.title }} | Yahya Rabbani{% endcapture %}{% assign seo_desc = page.excerpt | default: site.description %}{% endif %}
 <title>{{ seo_title }}</title>
 <meta name="description" content="{{ seo_desc | strip_html | escape }}">
 <meta name="author" content="Yahya Rabbani">
