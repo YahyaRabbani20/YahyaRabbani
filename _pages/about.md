@@ -29,7 +29,7 @@ redirect_from:
 
 <section class="hero live">
   <div>
-    <p class="eyebrow">AI-guided discovery platform</p>
+    <p class="eyebrow">Yahya Rabbani, PhD · AI-guided discovery platform</p>
     <h1>AI-Guided Design and Automated Experiments for <em>Novel Nanosensors</em></h1>
     <p class="lead">DNA-wrapped carbon nanotubes glow in the near-infrared, and their glow changes when a target molecule interacts with the DNA. The DNA sequence decides which molecule the sensor responds to, but a 30-base strand alone has about 10<sup>18</sup> possible sequences. This platform searches that space in a loop. It designs a small and diverse set of sequences, prepares and screens them in 384-well plates, measures their optical response automatically, and uses machine learning to pick what to test next. Each round of data improves the next round of predictions.</p>
     <p class="note">Building on earlier machine learning work on the food toxin fumonisin B1, the platform has been applied to glucose, the cancer protein OPG, and nitric oxide, with up to 10-fold brighter responses and up to 3-fold larger peak shifts than unguided approaches. European patent EP 4742248 A1.</p>
